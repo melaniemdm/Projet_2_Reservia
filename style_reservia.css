@@ -65,7 +65,32 @@ footer{
 /*---------------------------------  -----  ---------------------------------------------------------------*/
 /*---------------------------------  -----  ---------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------------------*/
-
+#logo{
+    background-color: gold;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#logo img{
+    margin-top: 10px;
+    height: 30px;
+   }
+#navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(55, 240, 30);
+}
+#navigation p a{
+    text-decoration: none;
+    color: #0065FC;
+    margin-right: 10px;
+    font-size: 10px; 
+}
+#navigation p a:hover{
+border-top: #0065FC solid 2px;
+padding-top: 10px;
+}
 
 
 
