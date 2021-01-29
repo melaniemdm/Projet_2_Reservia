@@ -99,7 +99,65 @@ padding-top: 10px;
 .mini{
     font-size: 10px;
 }
+/*recherche - loupe - style zone rechercher*/
+.couleur_map{
+    
+    border: #f2f2f2 solid 2px;
+    border-radius:7px 0px 0px 7px; 
+    padding-top: 3px;
+    padding-bottom: 6px;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 10px;
+    background-color: #f2f2f2;
+}
+.couleur_rechercher{
+    border: #0065FC solid 2px;
+    border-radius:0px 7px 7px 0px; 
+    padding-top: 3px;
+    padding-bottom: 6px;
+    padding-right: 8px;
+    padding-left: 8px;
+    font-size: 10px;
+    background-color: #0065FC;
+    margin-left: -8px;
+    color: white;
+}
+.couleur_rechercher a{
+    text-decoration: none;
+    color: white;
+    align-items: center;
+}
+/* zone recherche*/
+.formulaire_recherche input{
+    border: #f2f2f2 solid 2px;
+    font-weight: bold;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    font-size: 10px;
+}
+.border_recherche{
+    margin-bottom: 9px;
+    font-size: 10px;
+}
+.loupe{
+    display: none;
+}
+@media all and (max-width: 1020px){
+    .border_recherche{
+        display: none;
+    }
+    .couleur_rechercher{
+        padding-right: 11px;
+        border-radius:7px 7px 7px 7px;
+     }
 
+    .loupe{
+    display:flex ;
+    
+    }
+    
+    }
 
 
 
