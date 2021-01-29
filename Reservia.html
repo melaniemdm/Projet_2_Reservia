@@ -15,14 +15,66 @@
     </head>
     
 <body>
-    
+    <div id="bloc_page">
         <header>
-            
+            <div id="titre_principal">
+                <div id="logo">
+                    <nav id="entete">
+                    <img src="images/logo/Reservia@3x.png" alt="logo"/>
+                    </nav>
 
-    
-    
+                    <nav id="navigation">
+                        <p><a href="#hebergements"class="mini" >Hébergements</a></p>
+                        <p><a href="#activites"class="mini">Activités</a></p>
+                        <p><div id="inscription"><a href="#"> S'inscrire</a></div></p>                
+                    </nav>
+
+                    
+                </div> 
+                       
+            </div>    
+
+                <div class="vacances"> <strong>Trouvez votre hebergement pour des vacances de rêve</strong></br>
+
+                   <span class="mini">En plein centre ville ou en pleine nature</span>
+                </div> </br>
+
+                <!--recherche localisation-->
+                <form method="post" action="traitement.php">
+
+                    <div class="border_recherche">
+                        <span class="couleur_map"> <i class="fas fa-map-marker-alt"></i></span><span class="formulaire_recherche"><input type="search" name="cherche" placeholder="Marseille, France" /></span>
+                        <span class="couleur_rechercher"><a href="#">Rechercher</a></span>
+                    </br>
+                    </div>
+
+                    <div class="loupe">
+                        <span class="couleur_map"> <i class="fas fa-map-marker-alt"></i></span><span class="formulaire_recherche"><input type="search" name="cherche" placeholder="Marseille, France" /></span>
+                        <span class="couleur_rechercher"><i class="fas fa-search"></i></span>
+                     </div></br>
+ 
+
+                </form>
+
+                        <div class="filtres">Filtres
+                            <!--fa stack pour superposer des icones font awesome--> 
+                        <span class="filtre_elements"><span class="fa-stack fa"><span class="lightblue_icon"><i class="fas fa-circle fa-stack-2x"></i></span><span class="blue_icon"><i class="fas fa-money-bill-wave fa-stack-1x"></i></span></span><a href="#"> Economique</a></span>
+                        <span class="filtre_elements"><span class="fa-stack fa"><span class="lightblue_icon"><i class="fas fa-circle fa-stack-2x"></i></span><span class="blue_icon"><i class="fas fa-child fa-stack-1x"></i></span></span><a href="#"> Famillials</a></span>
+                        <span class="filtre_elements"><span class="fa-stack fa"><span class="lightblue_icon"><i class="fas fa-circle fa-stack-2x"></i></span><span class="blue_icon"><i class="fas fa-heart fa-stack-1x"></i></span></span><a href="#"> Romantique</a></span>
+                        <span class="filtre_elements"><span class="fa-stack fa"><span class="lightblue_icon"><i class="fas fa-circle fa-stack-2x"></i></span><span class="blue_icon"><i class="fas fa-dog fa-stack-1x"></i></span></span><a href="#"> Animaux autorisés</a></span></br>
+                        </div></br>
+                     
+                        <!--insertion icone I-->
+                        <div class="logements">
+                            
+                                <span class="fa-stack fa"><span class="lightblue_icon"><i class="fas fa-circle fa-stack-2x"></i></span><span class="blue_icon"><i class="fas fa-info fa-stack-1x"></i></span></span>
+                                <div class="loge_style">Plus de 500 logements sont disponibles dans cette ville
+                                </span></div>
+                        </div></br>
 
         </header>
+           
+ 
         
 
         <footer> <!--Pied e page-->
@@ -50,8 +102,10 @@
                     <p><a href="#"">Nous contacter</a></p>
                 
             </nav>
+    
+    
         </footer>
-
+    </div> 
 
 </body>
 
