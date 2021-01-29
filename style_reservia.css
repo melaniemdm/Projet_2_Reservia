@@ -1,0 +1,55 @@
+/*police*/
+@font-face{ 
+    font-family:'Raleway';
+    src:url('police/Raleway-VariableFont_wght.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* page pour divers ecran */
+#bloc_page{
+    width: 900px;
+    margin: auto;
+    }
+@media all and (max-width: 1024px)
+{
+    #bloc_page,
+    {
+        width: auto;
+    }
+}
+body{
+    font-family: 'Raleway', Arial, 'sans-sherif';
+    color: black;
+    }
+    
+ /* footer*/
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding-left: 2%;
+    background-color: #F2F2F2; 
+    font-size: x-small;
+    }  
+
+
+#assistance{
+    margin-right: 30%;
+}
+
+.footer_style a{
+    text-decoration: none;
+    color: black;
+   }
+   .footer_style strong{
+       font-weight: bold;
+   }  
+
+@media all and (max-width: 900px)
+{
+    footer{
+        flex-direction: column;
+        padding-left: 2%;
+    }
