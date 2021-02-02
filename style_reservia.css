@@ -251,3 +251,276 @@ padding-top: 15px;
 /*------------------------------------------  -------------------------------------------------------------*/   
 /*----------------------------------          -------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------------------*/
+/*section hebergements*/
+#hebergements{
+    background-color: pink;
+    border-radius: 20px;
+    display: grid;
+    font-size: 13px;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 50px 2fr 2fr;
+    padding-left: 2%;
+    padding-right: 1%;
+    padding-bottom: 10px;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    grid-column: 1 / span 2;
+    margin-left: 5%;
+    background-size: cover;
+}
+
+#hebergements h3{
+    grid-column: 1/ span 3;
+}
+
+
+#hebergements p{
+    margin-left: 5px;
+    padding-left: 2px;
+    margin-top: 0px;
+   
+}
+figcaption{
+    border: red solid 2px;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    display: grid;
+    grid-template-rows: 2fr;
+    }
+    #hebergements figcaption{
+        font-size: 12px;
+        background-color: violet;
+        grid-template-rows: 1fr;
+        background-size: cover;
+    }   
+
+/* mise en page photo hebergements*/
+.photo_cannebiere{
+    background-image: url('./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg') ;
+    background-size: cover; /* taille du backgrounf couvre tout*/
+    border-radius: 10px 10px 0px 0px;
+    height: 90px;
+    background-position: center;   
+}
+.photo_hotel_port{
+    background-image: url('./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg') ;
+    background-size: cover; /* taille du backgrounf couvre tout*/  
+    border-radius: 10px 10px 0px 0px; 
+    background-position: center;
+}
+.photo_mouettes{
+    background-image: url('./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg') ;
+    background-size: cover; /* taille du backgrounf couvre tout*/  
+    border-radius: 10px 10px 0px 0px;
+    background-position: center;
+}
+.photo_mer{
+    background-image: url('./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg') ;
+    background-size: cover; /* taille du backgrounf couvre tout*/
+    border-radius: 10px 10px 0px 0px;  
+    background-position: center;
+}
+.photo_panier{
+    background-image: url('./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg') ;
+    background-position: center;
+    background-size: cover; /* taille du backgrounf couvre tout*/  
+    border-radius: 10px 10px 0px 0px;
+}
+.photo_amina{
+    background-position: center;
+    background-image: url('./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg') ;
+    background-size: cover; /* taille du backgrounf couvre tout*/  
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+/*section populaires*/
+#populaires > div{
+    font-size: 15px;
+    
+}
+#populaires{
+    background-color: cadetblue;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 2fr 2fr 2fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 30px;
+    padding-left: 10%;
+    padding-right: 15%;
+    margin-right: 8%;
+    padding-bottom: 40px; 
+   
+    font-size: 13px;
+}
+
+p strong{
+    font-weight: bold;
+}
+#populaires h3{
+    display: flex;
+    justify-content: space-between;
+}
+p a{                      /*afficher plus*/
+    text-decoration: none;
+    color: black;
+}
+
+
+.page_populaires{
+    display: grid;
+    background-color: yellow;
+    grid-template-columns: 100px 45% 2fr;
+    grid-template-rows: 90px 2fr;
+    grid-column-gap: 20px;
+   }
+/* mise en page photo populaires*/
+.photo_soleil_matin{
+    background-position: center; 
+    background-image: url('./images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg') ;
+    background-size: cover; /* taille du backgrounf couvre tout*/  
+    border-radius: 10px 0px 0px 10px;
+          }  
+.photo_coeur_eau{
+    background-position: center;
+    background-image: url('./images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg') ;
+    background-size: cover; /* taille du backgrounf couvre tout*/  
+    border-radius: 10px 0px 0px 10px;
+    }  
+    .photo_bleu{
+    background-image: url('./images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg') ;
+    background-size: cover; /* taille du backgrounf couvre tout*/  
+    border-radius: 10px 0px 0px 10px;
+    background-position: center;
+        }
+
+/* section activité*/ 
+
+#activites{
+    background-color: yellowgreen;
+    border-radius: 20px;
+    display: grid;
+    font-size: 13px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 30px 2fr 2fr 2fr 2fr 2fr 2fr;
+    grid-column: 1/ span 3;
+    font-size: 12px;
+    padding-left: 2%;
+    padding-right: 2%;
+    grid-column-gap: 3%;
+    grid-row-gap: 3%;
+    margin-right: 2.5%;
+    margin-left: 3.1%;
+    padding-bottom: 10px;
+}
+#activites p{
+    font-weight: bold;
+    margin-left: 5px;
+}
+/* mise en page photos activités*/
+.photo_vieux_port{
+       
+        background-image: url('./images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg') ;
+        
+        background-size: cover; /* taille du backgrounf couvre tout*/  
+        border-radius: 10px 10px 0px 0px;
+        background-position: center;
+    }
+.photo_pomegues{
+    
+    background-image: url('./images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg') ;
+    
+    background-size: cover; /* taille du backgrounf couvre tout*/  
+    border-radius: 10px 10px 0px 0px;
+    background-position: center;
+}
+.photo_frioul{
+    
+    background-image: url('./images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg') ;
+    background-size: cover; /* taille du backgrounf couvre tout*/  
+    border-radius: 10px 10px 0px 0px;
+    height: 90px;
+    background-position: center;
+}
+
+
+.photo_calanques{
+    
+    background-image: url('./images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg') ;
+    
+    background-size: cover; /* taille du backgrounf couvre tout*/  
+    border-radius: 10px 10px 0px 0px;
+    background-position: center;
+}
+.photo_lagarde{
+   
+    background-image: url('./images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg') ;
+    height: 90%;
+    background-size: cover; /* taille du backgrounf couvre tout*/  
+    border-radius: 10px 10px 0px 0px;
+    background-position: center;
+}
+
+
+.photo_longchamp{
+    
+    background-image: url('./images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg') ;
+    height: 90%;
+    background-size: cover; /* taille du backgrounf couvre tout*/  
+    border-radius: 10px 10px 0px 0px;
+    background-position: center;
+}
+
+
+#activites h3{
+    grid-column: 1/ span 4;
+    background-color: cadetblue;
+}
+.premiere{
+    background-color: brown;
+    display: grid;
+    grid-template-columns: 15fr 15fr 15fr;
+    grid-template-rows: 15fr 15fr;
+    grid-column-gap: 1%;
+    grid-row-gap: 15px;
+    }
+   .grey_icon{
+       color: #f2f2f2;
+       }
+
+       .grandport{
+        border: black solid 2px;
+        grid-row: span 6 ;
+        grid-column-start: 1;
+        background-color: grey ;
+        }
+        .grandparc{
+            border: black solid 2px;
+            grid-row: 2/ span 6 ;
+            grid-column-start: 3;
+            background-color: grey ;
+            }
+        .grand_pomegues{
+            grid-row: 2/ span 4 ;
+            grid-column-start: 2;  
+        }
+        .grand_lagarde{
+            grid-row: 5/ span 3 ;
+            grid-column-start: 4; 
+        }
+        .grand_longchamp{
+            grid-row: 2/ span 3 ;
+            grid-column-start: 4; 
+        }
+        .grand_frioul{
+            grid-row: 6/ span 2 ;
+            grid-column-start: 2;   
+        }
+        
+            
+        .grandport figcaption, .grandparc figcaption, .grand_pomegues figcaption, .grand_lagarde figcaption, .grand_frioul figcaption, .grand_longchamp figcaption{
+            height: 100%;
+        
+        }
+        
