@@ -174,8 +174,10 @@ padding-top: 15px;
     }
     .sommaire_hover a:hover{
         border-top: none;
-        border-bottom: #8fa4c5 solid 2px ;
-        padding-bottom: 16px;
+        border-bottom: #8fa4c5 solid 3px ;
+        padding-right: 30%;
+        padding-left: 30%;
+        padding-bottom: 17px;
     }
     
 }
