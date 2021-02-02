@@ -78,7 +78,7 @@ header{
 
 #navigation{
     display: grid;
-    grid-template-columns:70% 1fr 1fr 1fr;
+    grid-template-columns:7fr 1fr 1fr 1fr;
     grid-column-gap: 15px;
     background-color: rgb(55, 240, 30);
    
