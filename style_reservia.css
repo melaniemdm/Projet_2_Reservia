@@ -80,24 +80,30 @@ header{
     margin-top: 10px;
     height: 30px;
    }
+
 #navigation{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 60px 1fr 2fr;
+    grid-column-gap: 20px;
     background-color: rgb(55, 240, 30);
+   
 }
 #navigation p a{
     text-decoration: none;
     color: #0065FC;
-    margin-right: 10px;
+    margin-right: 5px;
     font-size: 10px; 
 }
-#navigation p a:hover{
+.sommaire a:hover{
 border-top: #0065FC solid 2px;
-padding-top: 10px;
+padding-top: 15px;
 }
 .mini{
     font-size: 10px;
+}
+#inscription p a{
+    text-decoration: none;
+    font-weight: bold;
 }
 /*recherche - loupe - style zone rechercher*/
 .couleur_map{
