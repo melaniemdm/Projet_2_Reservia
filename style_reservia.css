@@ -70,12 +70,7 @@ header{
     background-color:burlywood; 
     padding-left: 2%;   
 }
-#logo{
-    background-color: gold;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-}
+
 #logo img{
     margin-top: 10px;
     height: 30px;
@@ -83,15 +78,14 @@ header{
 
 #navigation{
     display: grid;
-    grid-template-columns: 60px 1fr 2fr;
-    grid-column-gap: 20px;
+    grid-template-columns:75% 1fr 1fr 1fr;
+    grid-column-gap: 15px;
     background-color: rgb(55, 240, 30);
    
 }
 #navigation p a{
     text-decoration: none;
     color: #0065FC;
-    margin-right: 5px;
     font-size: 10px; 
 }
 .sommaire a:hover{
@@ -104,6 +98,10 @@ padding-top: 15px;
 #inscription p a{
     text-decoration: none;
     font-weight: bold;
+    margin-right: 70px;
+}
+#inscription{
+    
 }
 /*recherche - loupe - style zone rechercher*/
 .couleur_map{
