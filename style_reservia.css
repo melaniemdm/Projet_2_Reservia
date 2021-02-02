@@ -78,7 +78,7 @@ header{
 
 #navigation{
     display: grid;
-    grid-template-columns:75% 1fr 1fr 1fr;
+    grid-template-columns:70% 1fr 1fr 1fr;
     grid-column-gap: 15px;
     background-color: rgb(55, 240, 30);
    
@@ -98,11 +98,9 @@ padding-top: 15px;
 #inscription p a{
     text-decoration: none;
     font-weight: bold;
-    margin-right: 70px;
-}
-#inscription{
     
 }
+
 /*recherche - loupe - style zone rechercher*/
 .couleur_map{
     
@@ -155,14 +153,32 @@ padding-top: 15px;
         padding-right: 11px;
         border-radius:7px 7px 7px 7px;
      }
-
     .loupe{
     display:flex ;
-    
-    }
-    
-    }
+        }
+    #navigation{
+        grid-template-columns:1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+        border-bottom: #deebff solid 2px;
 
+    }
+    #inscription{
+        background-color: orange;
+        grid-row: 1;
+        grid-column-start: 2 ;
+       justify-self: end; /* inscription a droite - mot seul*/ 
+    }
+    #entete{
+        justify-self: left; /* inscription a droite - mot seul*/ 
+    }
+    .sommaire_hover a:hover{
+        border-top: none;
+        border-bottom: #8fa4c5 solid 2px ;
+        padding-bottom: 16px;
+    }
+    
+}
 /* mise en page et style du filtre */
 .filtres{
     display: flex;
