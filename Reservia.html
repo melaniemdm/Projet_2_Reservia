@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr"> <!--indique au navigateur que la page est en français-->
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="style_reservia.css" /><!--lien vers le fichier css-->
@@ -82,7 +82,7 @@
                     <div id="hebergements">
                     <h3>Hébergements à Marseille</h3>
                     
-                    <figcaption>
+                    <div class="div_figcaption"> <!--remplacement car ne passe pas au w3c-->
                         
                     <div class="photo_cannebiere"></div>
                     <p><strong> La Cannebière </strong><br/>
@@ -97,9 +97,9 @@
                         <i class="fas fa-star"></i>
                     </span>
                     </p>
-                    </figcaption>
+                </div>
         
-                    <figcaption>
+                    <div class="div_figcaption">
                     <div class="photo_hotel_port"></div>
                     <p><strong> Hôtel du port </strong><br/>
                     Nuit à partir de 52€<br/>
@@ -111,9 +111,9 @@
                         <i class="fas fa-star"></i>
                     </span>
                     </p>
-                    </figcaption>
+                    </div>
         
-                    <figcaption>
+                    <div class="div_figcaption">
                     <div class="photo_mouettes"></div>    
                     <p><strong> Hôtel des mouettes </strong><br/>
                     Nuit à partir de 76€<br/>
@@ -127,9 +127,9 @@
                     <i class="fas fa-star"></i>
                     </span>
                     </p>
-                    </figcaption>
+                    </div>
         
-                    <figcaption>
+                    <div class="div_figcaption">
                         <div class="photo_mer"></div>
                     <p><strong> Hôtel de la mer</strong><br/>
                     Nuit à partir de 46€<br/>
@@ -143,9 +143,9 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     </span>
-                </p></figcaption>
+                </p></div>
         
-                    <figcaption>
+                    <div class="div_figcaption">
                         <div class="photo_panier"></div>
                     <p><strong> Auberge Le Panier </strong><br/>
                     Nuit à partir de 23€<br/>
@@ -158,9 +158,9 @@
                     <span class="grey_icon"> 
                         <i class="fas fa-star"></i>
                     </span>
-                    </p></figcaption>
+                    </p></div>
         
-                    <figcaption>
+                    <div class="div_figcaption">
                         <div class="photo_amina"></div>
                     <p><strong> Hôtel chez Amina</strong><br/>
                     Nuit à partir de 96€<br/>
@@ -170,15 +170,15 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
-                    </span></p></figcaption>
+                    </span></p></div>
                     <p><a href="#"><strong>Afficher plus</strong></a></p>
                 </div> 
                 
                 
         
                 <div id="populaires">
-                <h3><div>Les plus populaires</div><div><i class="fas fa-chart-line"></i> </div> </h3> 
-                <figcaption><div class="page_populaires">
+                <div class="titre_populaire"><h3> Les plus populaires </h3><p><i class="fas fa-chart-line"></i></p></div>
+                <div class="div_figcaption"><div class="page_populaires">
                     <div class="photo_soleil_matin"></div>
                     <p><strong>Hôtel Le soleil du matin</strong><br/>
                 Nuit à partir de 128€<br/>
@@ -190,9 +190,9 @@
                     <i class="fas fa-star"></i>
                 </span>
             </p></div>
-        </figcaption>
+        </div>
         
-                <figcaption>
+                <div class="div_figcaption">
                     <div class="page_populaires">
                     <div class="photo_coeur_eau"></div>
                     <p><strong>Au coeur de l'eau<br/> Chambres d'hôtes</strong><br/>
@@ -208,9 +208,9 @@
                 </span>
                 </p>
                 </div>
-                </figcaption>
+                </div>
         
-                <figcaption><div class="page_populaires">
+                <div class="div_figcaption"><div class="page_populaires">
                     <div class="photo_bleu"></div>
                     <p><strong>Hôtel tout bleu et Blanc<br/></strong>
                 Nuit à partir de 68€<br/>
@@ -224,7 +224,7 @@
                     <i class="fas fa-star"></i>
                 </span>
                     </p></div>
-                </figcaption>
+                </div>
                 
                 </div>
                
@@ -232,29 +232,29 @@
                 
                 <div id="activites">
                 <h3>Activités à Marseille</h3>
-                <div class="grandport"><figcaption >
+                <div class="grandport"><div class="div_figcaption">
                     <div class="photo_vieux_port"></div>
-                <p><strong> Port</strong></p></figcaption></div>
+                <p><strong> Port</strong></p></div></div>
         
-                <div class="grand_pomegues"><figcaption>
+                <div class="grand_pomegues"><div class="div_figcaption">
                     <div class="photo_pomegues"></div>
-                <p><strong>Fort de Pomègues</strong></p></figcaption></div>
+                <p><strong>Fort de Pomègues</strong></p></div></div>
         
-                <div class="grand_frioul"><figcaption>
+                <div class="grand_frioul"><div class="div_figcaption">
                     <div class="photo_frioul"></div>
-                    <p><strong>Île de Frioul</strong></p></figcaption></div>
+                    <p><strong>Île de Frioul</strong></p></div></div>
         
-                <div class="grandparc"><figcaption>
+                <div class="grandparc"><div class="div_figcaption">
                     <div class="photo_calanques"></div>
-                <p><strong>Parc National des Calanques</strong></p></figcaption></div>
+                <p><strong>Parc National des Calanques</strong></p></div></div>
         
-                <div class="grand_lagarde"><figcaption>
+                <div class="grand_lagarde"><div class="div_figcaption">
                     <div class="photo_lagarde"></div>
-                <p><strong>Notre-Dame-de-la-garde</strong></p></figcaption></div>
+                <p><strong>Notre-Dame-de-la-garde</strong></p></div></div>
         
-                <div class="grand_longchamp"><figcaption>
+                <div class="grand_longchamp"><div class="div_figcaption">
                     <div class="photo_longchamp"></div>
-                <p><strong> Longchamp</strong></p></figcaption></div>
+                <p><strong> Longchamp</strong></p></div></div>
                 
                 </div>
             </div>    

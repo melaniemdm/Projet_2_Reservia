@@ -280,14 +280,14 @@ padding-top: 15px;
     margin-top: 0px;
    
 }
-figcaption{
+.div_figcaption{
     border: red solid 2px;
     background-color: white;
     border-radius: 10px 10px 10px 10px;
     display: grid;
     grid-template-rows: 2fr;
     }
-    #hebergements figcaption{
+    #hebergements .div_figcaption{
         font-size: 12px;
         background-color: violet;
         grid-template-rows: 1fr;
@@ -336,7 +336,7 @@ figcaption{
 
 /*section populaires*/
 #populaires > div{
-    font-size: 15px;
+    font-size: 10px;
     
 }
 #populaires{
@@ -352,13 +352,12 @@ figcaption{
     margin-right: 8%;
     padding-bottom: 40px; 
    
-    font-size: 13px;
 }
 
 p strong{
     font-weight: bold;
 }
-#populaires h3{
+#populaires .titre_populaire{
     display: flex;
     justify-content: space-between;
 }
@@ -519,7 +518,7 @@ p a{                      /*afficher plus*/
         }
         
             
-        .grandport figcaption, .grandparc figcaption, .grand_pomegues figcaption, .grand_lagarde figcaption, .grand_frioul figcaption, .grand_longchamp figcaption{
+        .grandport .div_figcaption, .grandparc .div_figcaption, .grand_pomegues .div_figcaption, .grand_lagarde .div_figcaption, .grand_frioul .div_figcaption, .grand_longchamp .div_figcaption{
             height: 100%;
         
         }
