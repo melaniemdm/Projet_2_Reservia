@@ -401,11 +401,7 @@ p a {
   border-radius: 20px 20px 20px 20px;
 }
 @media all and (max-width: 1024px){
-    .page_populaires{
-        display: flex;
-        flex-direction: column;
-        
-    }
+    
     #populaires p {
     margin-left: 5px;
     }
