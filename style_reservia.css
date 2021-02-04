@@ -398,6 +398,7 @@ p a {
   grid-template-columns: 100px 45% 2fr;
   grid-template-rows: 90px 2fr;
   grid-column-gap: 20px;
+  border-radius: 20px 20px 20px 20px;
 }
 @media all and (max-width: 1024px){
     .page_populaires{
@@ -547,12 +548,14 @@ p a {
   grid-row: span 6;
   grid-column-start: 1;
   background-color: grey;
+  border-radius: 20px 20px 20px 20px;
 }
 .grandparc {
   border: black solid 2px;
   grid-row: 2 / span 6;
   grid-column-start: 3;
   background-color: grey;
+  border-radius: 20px 20px 20px 20px;
 }
 .grand_pomegues {
   grid-row: 2 / span 4;
