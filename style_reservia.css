@@ -234,7 +234,7 @@ header {
 .filtre_elements2 {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
   font-size: 10px;
   margin-right: 10px;
