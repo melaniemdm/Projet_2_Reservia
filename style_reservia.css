@@ -34,7 +34,7 @@ footer {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-left: 2%;
+  padding-left: 5%;
   background-color: #f2f2f2;
   font-size: x-small;
 }
@@ -65,7 +65,7 @@ footer {
 /*---------------------------------------------------------------------------------------------------------*/
 header {
   background-color: burlywood;
-  padding-left: 2%;
+  padding-left: 5%;
 }
 
 #logo img {
