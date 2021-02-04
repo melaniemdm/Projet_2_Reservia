@@ -386,7 +386,10 @@ p a {
         flex-direction: column;
         
     }
-
+    #populaires p {
+      
+      margin-left: 5px;
+    }
 }
 
 /* mise en page photo populaires*/
