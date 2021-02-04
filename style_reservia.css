@@ -409,6 +409,12 @@ p a {
     #populaires p {
     margin-left: 5px;
     }
+    #populaires .titre_populaire {
+      display: flex;
+      justify-content: space-between;
+      padding-right: 15px;
+    }
+
 }
 
 /* mise en page photo populaires*/
