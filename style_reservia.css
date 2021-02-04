@@ -303,7 +303,7 @@ header {
   background-color: violet;
   grid-template-rows: 1fr;
   background-size: cover;
-  order: 3;
+  
 }
 
 
