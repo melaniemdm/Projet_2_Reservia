@@ -276,6 +276,7 @@ header {
         padding-right: 0;
         padding-bottom: 0;
         margin-left: 0;
+        order: 2;
     }
 
 }
@@ -285,6 +286,7 @@ header {
   background-color: violet;
   grid-template-rows: 1fr;
   background-size: cover;
+  order: 3;
 }
 
 
@@ -357,7 +359,7 @@ header {
         padding-right: 0;
         margin-right: 0;
         padding-bottom: 0;
-    }
+          }
 
 }
 p strong {
@@ -442,6 +444,7 @@ p a {
         margin-right: 0;
         margin-left: 0;
         padding-bottom: 0;
+        order: 3;
     }
 
 }
