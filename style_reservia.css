@@ -152,6 +152,9 @@ header {
   justify-content: flex-end;
 }
 @media all and (max-width: 1024px) {
+  header {
+  padding-left: 0;
+  }
   .couleur_map {
     padding-right: 10px;
     padding-left: 15px;
