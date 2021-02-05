@@ -451,14 +451,13 @@ p a {
   font-size: 10px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 30px 2fr 2fr 2fr 2fr 2fr 2fr;
-  grid-column: 1 / span 3;
   padding-left: 2%;
   padding-right: 2%;
   grid-column-gap: 3%;
-  grid-row-gap: 3%;
+  grid-row-gap: 30px;
   margin-right: 2.5%;
   margin-left: 3.1%;
-  padding-bottom: 10px;
+  padding-bottom: 50px;
 }
 @media all and (max-width: 1024px){
     #activites{
@@ -497,7 +496,7 @@ p a {
   background-image: url("./images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
   background-size: cover; /* taille du backgrounf couvre tout*/
   border-radius: 10px 10px 0px 0px;
-  
+  height: 70px;
   background-position: center;
 }
 .photo_calanques {
@@ -526,11 +525,13 @@ p a {
   grid-column: 1 / span 4;
   background-color: cadetblue;
 }
+
+/* mise ne page de section*/
 .premiere {
   background-color: brown;
   display: grid;
   grid-template-columns: 15fr 15fr 15fr;
-  grid-template-rows: 15fr 15fr;
+  grid-template-rows: 15fr;
   grid-column-gap: 1%;
   grid-row-gap: 15px;
 }
