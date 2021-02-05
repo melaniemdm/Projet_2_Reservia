@@ -52,6 +52,7 @@ footer {
 @media all and (max-width: 1024px) {
   footer {
     display: block;
+    padding-left: 3%;
   }
 }
 /*---------------------------------------------------------------------------------------------------------*/
@@ -201,7 +202,9 @@ header {
   #navigation p:hover{
     border-bottom: #0065fc solid 2px;
   }
-  
+  #logo{
+    padding-left: 3%;
+  }
   
   
   #inscription {
@@ -209,6 +212,7 @@ header {
     grid-row: 1;
     grid-column-start: 2;
     justify-self: end; /* inscription a droite - mot seul*/
+    padding-right: 3%;
   }
   #entete {
     display: grid;
