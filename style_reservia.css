@@ -317,6 +317,10 @@ header {
   display: grid;
   grid-template-rows: 2fr;
 }
+.div_figcaption a{
+  text-decoration: none;
+}
+
 @media all and (max-width: 1024px) {
     .div_figcaption{
         display: flex;
