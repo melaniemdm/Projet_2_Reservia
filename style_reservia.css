@@ -66,7 +66,9 @@ header {
   background-color: burlywood;
   padding-left: 5%;
 }
-
+#logo{
+  margin-right: auto;
+}
 #logo img {
   margin-top: 10px;
   height: 30px;
@@ -74,7 +76,7 @@ header {
 
 #navigation {
   display: grid;
-  grid-template-columns: 7fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-column-gap: 15px;
   background-color: rgb(55, 240, 30);
 }
@@ -83,16 +85,22 @@ header {
   color: #0065fc;
   font-size: 10px;
 }
-.sommaire a:hover {
+#navigation p a:hover {
   border-top: #0065fc solid 2px;
   padding-top: 15px;
+  align-items: center;
 }
 .mini {
   font-size: 10px;
 }
-#inscription p a {
+#inscription a {
   text-decoration: none;
   font-weight: bold;
+}
+#inscription{
+  padding-top: 22px;
+  padding-right: 2%;
+  font-size: 10px;
 }
 
 /*recherche - loupe - style zone rechercher*/
@@ -138,6 +146,11 @@ header {
 .loupe {
   display: none;
 }
+#entete{
+  background-color: red;
+  display: flex;
+  justify-content: flex-end;
+}
 @media all and (max-width: 1024px) {
   .couleur_map {
     padding-right: 10px;
@@ -179,12 +192,8 @@ header {
   #entete {
     justify-self: left; /* inscription a droite - mot seul*/
   }
-  .sommaire_hover a:hover {
-    border-top: none;
-    border-bottom: #8fa4c5 solid 3px;
-    padding-right: 30%;
-    padding-left: 30%;
-    padding-bottom: 17px;
+  p :hover{
+border-bottom: red 2px solid;
   }
 }
 /* mise en page et style du filtre */
