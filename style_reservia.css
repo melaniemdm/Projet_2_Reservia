@@ -8,8 +8,7 @@
 
 /* page pour divers ecran */
 #bloc_page {
-  width: 900px;
-  margin: auto;
+    margin: auto;
 }
 @media all and (max-width: 1024px) {
   #bloc_page {
