@@ -429,8 +429,8 @@ header {
   grid-template-rows: 30px 2fr 2fr 2fr;
   grid-column-gap: 10px;
   grid-row-gap: 30px;
-  padding-left: 10%;
-  padding-right: 15%;
+  padding-left: 30px;
+  padding-right: 30px;
   margin-right: 8%;
   padding-bottom: 40px;
 }
