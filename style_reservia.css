@@ -10,7 +10,7 @@
 #bloc_page {
     margin: auto;
 }
-@media all and (max-width: 600px) {
+@media all and (max-width: 600px) { /* vue mobile*/
   #bloc_page {
     width: auto;
   }
@@ -155,7 +155,7 @@ header {
   display: flex;
   justify-content: flex-end;
 }
-@media all and (max-width: 600px) {
+@media all and (max-width: 600px) {/* vue mobile*/
 .trouver{
   padding-left: 5%;
   padding-right: 5%;
@@ -485,7 +485,7 @@ p a {
   grid-column-gap: 20px;
   border-radius: 20px 20px 20px 20px;
 }
-@media all and (max-width: 600px){
+@media all and (max-width: 600px){  /* vue mobile*/
     
     #populaires p {
     margin-left: 5px;
@@ -536,7 +536,7 @@ p a {
   grid-row-gap: 30px;
   padding-bottom: 50px;
 }
-@media all and (max-width: 600px){
+@media all and (max-width: 600px){  /* vue mobile*/
   #activites h3{
     margin-left: 5%;
   } 
@@ -615,13 +615,13 @@ p a {
   grid-column-gap: 1%;
   grid-row-gap: 15px;
 }
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1024px) {/* vue tablette*/
   .premiere{
     display: flex;
     flex-direction: column-reverse;
 } 
 }
-@media all and (max-width: 600px) {
+@media all and (max-width: 600px) {/* vue mobile*/
     .premiere{
         display: flex;
         flex-direction: column;
