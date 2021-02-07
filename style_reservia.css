@@ -10,7 +10,7 @@
 #bloc_page {
     margin: auto;
 }
-@media all and (max-width: 1024px) {
+@media all and (max-width: 767px) {
   #bloc_page {
     width: auto;
   }
@@ -49,7 +49,8 @@ footer {
 .footer_style strong {
   font-weight: bold;
 }
-@media all and (max-width: 1024px) {
+/*responsive pour les mobiles*/
+@media all and (max-width: 767px) {
   footer {
     display: block;
     padding-left: 3%;
@@ -152,7 +153,7 @@ header {
   display: flex;
   justify-content: flex-end;
 }
-@media all and (max-width: 1024px) {
+@media all and (max-width: 767px) {
   header {
   padding-left: 0;
   }
@@ -328,7 +329,7 @@ header {
   text-decoration: none;
 }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 767px) {
     .div_figcaption{
         display: flex;
         flex-direction: column;
@@ -415,7 +416,7 @@ header {
   margin-right: 8%;
   padding-bottom: 40px;
 }
-@media all and (max-width: 1024px){
+@media all and (max-width: 767px){
     #populaires {
         display: flex;
         flex-direction: column;
@@ -447,7 +448,7 @@ p a {
   grid-column-gap: 20px;
   border-radius: 20px 20px 20px 20px;
 }
-@media all and (max-width: 1024px){
+@media all and (max-width: 767px){
     
     #populaires p {
     margin-left: 5px;
@@ -500,7 +501,7 @@ p a {
   margin-left: 3.1%;
   padding-bottom: 50px;
 }
-@media all and (max-width: 1024px){
+@media all and (max-width: 767px){
     #activites{
         display: flex;
         flex-direction: column;
@@ -577,7 +578,7 @@ p a {
   grid-row-gap: 15px;
 }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 767px) {
     .premiere{
         display: flex;
         flex-direction: column;
