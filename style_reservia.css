@@ -523,12 +523,13 @@ p a {
   display: grid;
   font-size: 10px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 30px 2fr 2fr 2fr 2fr 2fr 2fr;
-  padding-left: 2%;
-  padding-right: 2%;
+  grid-template-rows: 15px 2fr 2fr 2fr 2fr 2fr 2fr;
+  padding-left: 3%;
+  padding-right: 3%;
   grid-column-gap: 3%;
   grid-row-gap: 30px;
   padding-bottom: 50px;
+  padding-top: 10px;
 }
 @media all and (max-width: 600px){  /* vue mobile*/
   #activites h3{
