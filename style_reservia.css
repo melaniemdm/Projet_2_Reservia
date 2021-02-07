@@ -8,9 +8,10 @@
 
 /* page pour divers ecran */
 #bloc_page {
-    margin: auto;
+  margin: auto;
 }
-@media all and (max-width: 600px) { /* vue mobile*/
+@media all and (max-width: 600px) {
+  /* vue mobile*/
   #bloc_page {
     width: auto;
   }
@@ -67,7 +68,7 @@ footer {
 header {
   padding-left: 3%;
 }
-#logo{
+#logo {
   margin-right: auto;
 }
 #logo img {
@@ -79,7 +80,7 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 15px;
-  }
+}
 #navigation p a {
   text-decoration: none;
   color: black;
@@ -99,7 +100,7 @@ header {
   font-weight: bold;
   color: #0065fc;
 }
-#inscription{
+#inscription {
   padding-top: 22px;
   padding-right: 2%;
   font-size: 10px;
@@ -148,26 +149,26 @@ header {
 .loupe {
   display: none;
 }
-#entete{
-  
+#entete {
   display: flex;
   justify-content: flex-end;
 }
-@media all and (max-width: 600px) {/* vue mobile*/
-.trouver{
-  padding-left: 5%;
-  padding-right: 5%;
-}
+@media all and (max-width: 600px) {
+  /* vue mobile*/
+  .trouver {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
   header {
-  padding-left: 0;
+    padding-left: 0;
   }
   .couleur_map {
     padding-right: 10px;
     padding-left: 15px;
-    padding-top: 7px;   
+    padding-top: 7px;
   }
-  
-  .formulaire_recherche input{
+
+  .formulaire_recherche input {
     padding-top: 5px;
     padding-bottom: 8px;
   }
@@ -190,29 +191,27 @@ header {
     grid-column-gap: 0;
     grid-template-columns: 1fr 1fr;
     border-bottom: #deebff solid 2px;
-    grid-column: 1/ span2;
+    grid-column: 1 / span2;
   }
-  #navigation p{
+  #navigation p {
     width: 100%;
     height: 100%;
     margin-top: 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
-     }
+  }
   #navigation p a:hover {
     border-top: none;
-      }
-  #navigation p:hover{
+  }
+  #navigation p:hover {
     border-bottom: #0065fc solid 2px;
   }
-  #logo{
+  #logo {
     padding-left: 3%;
   }
-  
-  
+
   #inscription {
-    
     grid-row: 1;
     grid-column-start: 2;
     justify-self: end; /* inscription a droite - mot seul*/
@@ -222,9 +221,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    
   }
-  
 }
 /* mise en page et style du filtre */
 .filtres {
@@ -242,9 +239,8 @@ header {
   text-decoration: none;
   color: black;
 }
-.filtres a:hover{
-   color: #0065fc;
-   
+.filtres a:hover {
+  color: #0065fc;
 }
 /* style bordure filtre*/
 .filtre_elements {
@@ -280,13 +276,11 @@ header {
   margin-right: 10px;
   padding-right: 20px;
 }
-.filtres_responsive{
+.filtres_responsive {
   display: flex;
   flex-wrap: wrap;
 }
 
-
-  
 /*---------------------------------------------------------------------------------------------------------*/
 /*----------------------------------          -------------------------------------------------------------*/
 /*----------------------------------  ---------------------------------------------------------------------*/
@@ -329,48 +323,47 @@ header {
   grid-template-rows: 2fr;
   box-shadow: 3px 5px 5px #f2f2f2;
 }
-.div_figcaption a{
+.div_figcaption a {
   text-decoration: none;
 }
-@media all and (max-width: 1024px) { /* vue tablette*/
-  #hebergements{
-    margin-left: 0;  
+@media all and (max-width: 1024px) {
+  /* vue tablette*/
+  #hebergements {
+    margin-left: 0;
     padding-left: 3%;
     padding-right: 3%;
     background-color: white;
-  } 
+  }
 }
-@media all and (max-width: 600px) { /* vue mobile*/
-  #hebergements h3{
+@media all and (max-width: 600px) {
+  /* vue mobile*/
+  #hebergements h3 {
     margin-left: 5%;
-  } 
-    .div_figcaption{
-        display: flex;
-        flex-direction: column;
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-bottom: 5%;
-    } 
-    #hebergements{
-        display: flex;
-        flex-direction: column;
-        padding-left: 0;
-        padding-right: 0;
-        padding-bottom: 0;
-        margin-left: 0;
-        order: 2;
-        background-color: white;
-    }
-
+  }
+  .div_figcaption {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+  }
+  #hebergements {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    margin-left: 0;
+    order: 2;
+    background-color: white;
+  }
 }
 
 #hebergements .div_figcaption {
   font-size: 10px;
   grid-template-rows: 1fr;
   background-size: cover;
-  
 }
-
 
 /* mise en page photo hebergements*/
 .photo_cannebiere {
@@ -433,8 +426,9 @@ header {
   margin-right: 8%;
   padding-bottom: 40px;
 }
-@media all and (max-width: 1024px){ /* vue tablette*/
-  #populaires{
+@media all and (max-width: 1024px) {
+  /* vue tablette*/
+  #populaires {
     display: grid;
     grid-template-rows: 10px 1fr;
     grid-template-columns: 1fr 1fr 1fr;
@@ -442,28 +436,27 @@ header {
     padding-left: 3%;
     padding-right: 3%;
     grid-column-gap: 30px;
-    border-radius: 0
+    border-radius: 0;
   }
-  .titre_populaire{
-    grid-column: 1/ span 3;
-  }  
-
+  .titre_populaire {
+    grid-column: 1 / span 3;
+  }
 }
 
-@media all and (max-width: 600px){ /* vue mobile*/
-  #populaires h3{
+@media all and (max-width: 600px) {
+  /* vue mobile*/
+  #populaires h3 {
     margin-left: 5%;
-  }  
+  }
   #populaires {
-        display: flex;
-        flex-direction: column;
-        padding-left: 0;
-        padding-right: 0;
-        margin-right: 0;
-        padding-bottom: 0;
-        border-radius: 0;
-          }
-
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+    padding-bottom: 0;
+    border-radius: 0;
+  }
 }
 p strong {
   font-weight: bold;
@@ -485,17 +478,17 @@ p a {
   grid-column-gap: 20px;
   border-radius: 20px 20px 20px 20px;
 }
-@media all and (max-width: 600px){  /* vue mobile*/
-    
-    #populaires p {
-    margin-left: 5px;
-    }
-    #populaires .titre_populaire {
-      display: flex;
-      justify-content: space-between;
-      padding-right: 15px;
-    }
+@media all and (max-width: 600px) {
+  /* vue mobile*/
 
+  #populaires p {
+    margin-left: 5px;
+  }
+  #populaires .titre_populaire {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+  }
 }
 
 /* mise en page photo populaires*/
@@ -524,7 +517,7 @@ p a {
 /* section activité*/
 
 #activites {
-   border-radius: 20px;
+  border-radius: 20px;
   display: grid;
   font-size: 10px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -536,24 +529,24 @@ p a {
   padding-bottom: 50px;
   padding-top: 10px;
 }
-#activites a{
-text-decoration: none;
+#activites a {
+  text-decoration: none;
 }
-@media all and (max-width: 600px){  /* vue mobile*/
-  #activites h3{
+@media all and (max-width: 600px) {
+  /* vue mobile*/
+  #activites h3 {
     margin-left: 5%;
-  } 
-  #activites{
-        display: flex;
-        flex-direction: column;
-        padding-left: 0;
-        padding-right: 0;
-        margin-right: 0;
-        margin-left: 0;
-        padding-bottom: 0;
-        order: 3;
-    }
-
+  }
+  #activites {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+    margin-left: 0;
+    padding-bottom: 0;
+    order: 3;
+  }
 }
 
 #activites p {
@@ -563,14 +556,14 @@ text-decoration: none;
 /* mise en page photos activités*/
 .photo_vieux_port {
   background-image: url("./images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
-  
+
   background-size: cover; /* taille du backgrounf couvre tout*/
   border-radius: 10px 10px 0px 0px;
   background-position: center;
 }
 .photo_pomegues {
   background-image: url("./images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
-  
+
   background-size: cover; /* taille du backgrounf couvre tout*/
   border-radius: 10px 10px 0px 0px;
   background-position: center;
@@ -584,21 +577,21 @@ text-decoration: none;
 }
 .photo_calanques {
   background-image: url("./images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
-  
+
   background-size: cover; /* taille du backgrounf couvre tout*/
   border-radius: 10px 10px 0px 0px;
   background-position: center;
 }
 .photo_lagarde {
   background-image: url("./images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
-  
+
   background-size: cover; /* taille du backgrounf couvre tout*/
   border-radius: 10px 10px 0px 0px;
   background-position: center;
 }
 .photo_longchamp {
   background-image: url("./images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
-  
+
   background-size: cover; /* taille du backgrounf couvre tout*/
   border-radius: 10px 10px 0px 0px;
   background-position: center;
@@ -606,7 +599,7 @@ text-decoration: none;
 
 #activites h3 {
   grid-column: 1 / span 4;
- }
+}
 
 /* mise ne page de section*/
 .premiere {
@@ -616,22 +609,28 @@ text-decoration: none;
   grid-column-gap: 1%;
   grid-row-gap: 15px;
 }
-@media all and (max-width: 1024px) {/* vue tablette*/
-  .premiere{
+@media all and (max-width: 1024px) {
+  /* vue tablette*/
+  .premiere {
     display: flex;
     flex-direction: column-reverse;
-} 
+  }
 }
-@media all and (max-width: 600px) {/* vue mobile*/
-    .premiere{
-        display: flex;
-        flex-direction: column;
-    }
-    .photo_vieux_port, .photo_pomegues, .photo_frioul, .photo_calanques, .photo_lagarde, .photo_longchamp{
-        height: 90px;
-    }
-
-} 
+@media all and (max-width: 600px) {
+  /* vue mobile*/
+  .premiere {
+    display: flex;
+    flex-direction: column;
+  }
+  .photo_vieux_port,
+  .photo_pomegues,
+  .photo_frioul,
+  .photo_calanques,
+  .photo_lagarde,
+  .photo_longchamp {
+    height: 90px;
+  }
+}
 
 .grey_icon {
   color: #f2f2f2;
