@@ -33,7 +33,7 @@ footer {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-left: 5%;
+  padding-left: 3%;
   background-color: #f2f2f2;
   font-size: x-small;
 }
@@ -66,7 +66,7 @@ footer {
 /*---------------------------------------------------------------------------------------------------------*/
 header {
   background-color: burlywood;
-  padding-left: 5%;
+  padding-left: 3%;
 }
 #logo{
   margin-right: auto;
@@ -84,11 +84,12 @@ header {
 }
 #navigation p a {
   text-decoration: none;
-  color: #0065fc;
+  color: black;
   font-size: 10px;
 }
 #navigation p :hover {
   border-top: #0065fc solid 2px;
+  color: #0065fc;
   padding-top: 15px;
   align-items: center;
 }
@@ -98,6 +99,7 @@ header {
 #inscription a {
   text-decoration: none;
   font-weight: bold;
+  color: #0065fc;
 }
 #inscription{
   padding-top: 22px;
@@ -149,7 +151,7 @@ header {
   display: none;
 }
 #entete{
-  background-color: red;
+  
   display: flex;
   justify-content: flex-end;
 }
@@ -510,8 +512,6 @@ p a {
   padding-right: 2%;
   grid-column-gap: 3%;
   grid-row-gap: 30px;
-  margin-right: 2.5%;
-  margin-left: 3.1%;
   padding-bottom: 50px;
 }
 @media all and (max-width: 767px){
