@@ -652,11 +652,11 @@ text-decoration: none;
   grid-column-start: 2;
 }
 .grand_lagarde {
-  grid-row: 5 / span 3;
+  grid-row: 2 / span 3;
   grid-column-start: 4;
 }
 .grand_longchamp {
-  grid-row: 2 / span 3;
+  grid-row: 5 / span 3;
   grid-column-start: 4;
 }
 .grand_frioul {
