@@ -637,13 +637,11 @@ p a {
 .grandport {
   grid-row: span 6;
   grid-column-start: 1;
-  background-color: grey;
   border-radius: 20px 20px 20px 20px;
 }
 .grandparc {
   grid-row: 2 / span 6;
   grid-column-start: 3;
-  background-color: grey;
   border-radius: 20px 20px 20px 20px;
 }
 .grand_pomegues {
