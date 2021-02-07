@@ -154,6 +154,10 @@ header {
   justify-content: flex-end;
 }
 @media all and (max-width: 767px) {
+.trouver{
+  padding-left: 5%;
+  padding-right: 5%;
+}
   header {
   padding-left: 0;
   }
@@ -333,6 +337,9 @@ header {
     .div_figcaption{
         display: flex;
         flex-direction: column;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
     } 
     #hebergements{
         display: flex;
