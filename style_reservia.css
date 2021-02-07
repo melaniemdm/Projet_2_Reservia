@@ -536,6 +536,9 @@ p a {
   padding-bottom: 50px;
   padding-top: 10px;
 }
+#activites a{
+text-decoration: none;
+}
 @media all and (max-width: 600px){  /* vue mobile*/
   #activites h3{
     margin-left: 5%;
