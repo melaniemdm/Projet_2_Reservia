@@ -325,6 +325,7 @@ header {
 }
 .div_figcaption a {
   text-decoration: none;
+  color: black;
 }
 @media all and (max-width: 1024px) {
   /* vue tablette*/
@@ -531,6 +532,7 @@ p a {
 }
 #activites a {
   text-decoration: none;
+  color: black;
 }
 @media all and (max-width: 600px) {
   /* vue mobile*/
@@ -671,4 +673,4 @@ p a {
 .grand_longchamp .div_figcaption {
   height: 100%;
   border: none;
-}
+  }
