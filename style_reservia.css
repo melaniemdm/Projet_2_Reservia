@@ -65,7 +65,6 @@ footer {
 /*---------------------------------  -----  ---------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------------------*/
 header {
-  background-color: burlywood;
   padding-left: 3%;
 }
 #logo{
@@ -80,8 +79,7 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 15px;
-  background-color: rgb(55, 240, 30);
-}
+  }
 #navigation p a {
   text-decoration: none;
   color: black;
@@ -201,8 +199,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-      background-color: yellow;
-  }
+     }
   #navigation p a:hover {
     border-top: none;
       }
@@ -215,7 +212,7 @@ header {
   
   
   #inscription {
-    background-color: orange;
+    
     grid-row: 1;
     grid-column-start: 2;
     justify-self: end; /* inscription a droite - mot seul*/
@@ -299,7 +296,7 @@ header {
 /*---------------------------------------------------------------------------------------------------------*/
 /*section hebergements*/
 #hebergements {
-  background-color: pink;
+  background-color: #f2f2f2;
   border-radius: 20px;
   display: grid;
   font-size: 10px;
@@ -325,7 +322,7 @@ header {
   margin-top: 0px;
 }
 .div_figcaption {
-  border: red solid 2px;
+  border: white solid 3px;
   background-color: white;
   border-radius: 10px 10px 10px 10px;
   display: grid;
@@ -366,7 +363,6 @@ header {
 
 #hebergements .div_figcaption {
   font-size: 10px;
-  background-color: violet;
   grid-template-rows: 1fr;
   background-size: cover;
   
@@ -422,7 +418,7 @@ header {
   font-size: 10px;
 }
 #populaires {
-  background-color: cadetblue;
+  background-color: #f2f2f2;
   border-radius: 20px;
   display: grid;
   grid-template-columns: auto;
@@ -479,7 +475,6 @@ p a {
 
 .page_populaires {
   display: grid;
-  background-color: yellow;
   grid-template-columns: 70px 45% 2fr;
   grid-template-rows: 90px 2fr;
   grid-column-gap: 20px;
@@ -524,8 +519,7 @@ p a {
 /* section activité*/
 
 #activites {
-  background-color: yellowgreen;
-  border-radius: 20px;
+   border-radius: 20px;
   display: grid;
   font-size: 10px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -603,12 +597,10 @@ p a {
 
 #activites h3 {
   grid-column: 1 / span 4;
-  background-color: cadetblue;
-}
+ }
 
 /* mise ne page de section*/
 .premiere {
-  background-color: brown;
   display: grid;
   grid-template-columns: 15fr 15fr 15fr;
   grid-template-rows: 15fr;
@@ -637,14 +629,12 @@ p a {
 }
 
 .grandport {
-  border: black solid 2px;
   grid-row: span 6;
   grid-column-start: 1;
   background-color: grey;
   border-radius: 20px 20px 20px 20px;
 }
 .grandparc {
-  border: black solid 2px;
   grid-row: 2 / span 6;
   grid-column-start: 3;
   background-color: grey;
@@ -674,4 +664,6 @@ p a {
 .grand_frioul .div_figcaption,
 .grand_longchamp .div_figcaption {
   height: 100%;
+  box-shadow: 3px 5px 5px #f2f2f2; 
+  border: none;
 }
