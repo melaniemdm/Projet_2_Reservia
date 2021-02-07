@@ -334,6 +334,9 @@ header {
 }
 
 @media all and (max-width: 767px) {
+  #hebergements h3{
+    margin-left: 5%;
+  } 
     .div_figcaption{
         display: flex;
         flex-direction: column;
@@ -424,7 +427,10 @@ header {
   padding-bottom: 40px;
 }
 @media all and (max-width: 767px){
-    #populaires {
+  #populaires h3{
+    margin-left: 5%;
+  }  
+  #populaires {
         display: flex;
         flex-direction: column;
         padding-left: 0;
@@ -509,7 +515,10 @@ p a {
   padding-bottom: 50px;
 }
 @media all and (max-width: 767px){
-    #activites{
+  #activites h3{
+    margin-left: 5%;
+  } 
+  #activites{
         display: flex;
         flex-direction: column;
         padding-left: 0;
