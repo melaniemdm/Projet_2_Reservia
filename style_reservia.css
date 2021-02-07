@@ -305,8 +305,8 @@ header {
   font-size: 10px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 30px 2fr 2fr;
-  padding-left: 8%;
-  padding-right: 8%;
+  padding-left: 30px;
+  padding-right: 30px;
   padding-bottom: 10px;
   grid-column-gap: 30px;
   grid-row-gap: 30px;
