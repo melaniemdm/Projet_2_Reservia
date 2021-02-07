@@ -327,6 +327,7 @@ header {
   border-radius: 10px 10px 10px 10px;
   display: grid;
   grid-template-rows: 2fr;
+  box-shadow: 3px 5px 5px #f2f2f2;
 }
 .div_figcaption a{
   text-decoration: none;
@@ -336,6 +337,7 @@ header {
     margin-left: 0;  
     padding-left: 3%;
     padding-right: 3%;
+    background-color: white;
   } 
 }
 @media all and (max-width: 600px) { /* vue mobile*/
@@ -357,6 +359,7 @@ header {
         padding-bottom: 0;
         margin-left: 0;
         order: 2;
+        background-color: white;
     }
 
 }
@@ -439,6 +442,7 @@ header {
     padding-left: 3%;
     padding-right: 3%;
     grid-column-gap: 30px;
+    border-radius: 0
   }
   .titre_populaire{
     grid-column: 1/ span 3;
@@ -457,6 +461,7 @@ header {
         padding-right: 0;
         margin-right: 0;
         padding-bottom: 0;
+        border-radius: 0;
           }
 
 }
@@ -665,6 +670,5 @@ p a {
 .grand_frioul .div_figcaption,
 .grand_longchamp .div_figcaption {
   height: 100%;
-  box-shadow: 3px 5px 5px #f2f2f2; 
   border: none;
 }
