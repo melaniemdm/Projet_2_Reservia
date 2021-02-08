@@ -473,9 +473,9 @@ p a {
 
 .page_populaires {
   display: grid;
-  grid-template-columns: 70px 45% 2fr;
+  grid-template-columns: 70px 45%;
   grid-template-rows: 90px 2fr;
-  grid-column-gap: 20px;
+  grid-column-gap: 10px;
   border-radius: 20px 20px 20px 20px;
 }
 @media all and (max-width: 600px) {
@@ -490,7 +490,13 @@ p a {
     padding-right: 15px;
   }
 }
-
+@media all and (max-width: 1024px) {
+  /* vue tablette*/
+  .page_populaires{
+    grid-template-columns: 70px 50%;
+  }
+}
+  /* vue mobile*/
 /* mise en page photo populaires*/
 .photo_soleil_matin {
   background-position: center;
