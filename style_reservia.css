@@ -295,7 +295,7 @@ header {
   display: grid;
   font-size: 10px;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 30px 2fr 2fr;
+  grid-template-rows: 10px 2fr 2fr;
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 10px;
@@ -419,7 +419,7 @@ header {
   border-radius: 20px;
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 30px 2fr 2fr 2fr;
+  grid-template-rows: 10px 2fr 2fr 2fr;
   grid-column-gap: 10px;
   grid-row-gap: 30px;
   padding-left: 30px;
