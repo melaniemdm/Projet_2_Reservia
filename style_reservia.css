@@ -261,7 +261,7 @@ header {
 }
 /* Couleur de l'icon */
 .blue_icon {
-  color: blue;
+  color:#0065fc;
 }
 /* couleur du cercle */
 .lightblue_icon {
@@ -369,28 +369,28 @@ header {
 /* mise en page photo hebergements*/
 .photo_cannebiere {
   background-image: url("./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
-  background-size: cover; /* taille du backgrounf couvre tout*/
+  background-size: cover; /* taille du backgroung couvre tout*/
   border-radius: 10px 10px 0px 0px;
   height: 90px;
   background-position: center;
 }
 .photo_hotel_port {
   background-image: url("./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
-  background-size: cover; /* taille du backgrounf couvre tout*/
+  background-size: cover; /* taille du backgroung couvre tout*/
   border-radius: 10px 10px 0px 0px;
   height: 90px;
   background-position: center;
 }
 .photo_mouettes {
   background-image: url("./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
-  background-size: cover; /* taille du backgrounf couvre tout*/
+  background-size: cover; /* taille du backgroung couvre tout*/
   border-radius: 10px 10px 0px 0px;
   height: 90px;
   background-position: center;
 }
 .photo_mer {
   background-image: url("./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
-  background-size: cover; /* taille du backgrounf couvre tout*/
+  background-size: cover; /* taille du backgroung couvre tout*/
   border-radius: 10px 10px 0px 0px;
   height: 90px;
   background-position: center;
@@ -398,14 +398,14 @@ header {
 .photo_panier {
   background-image: url("./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
   background-position: center;
-  background-size: cover; /* taille du backgrounf couvre tout*/
+  background-size: cover; /* taille du backgroung couvre tout*/
   border-radius: 10px 10px 0px 0px;
   height: 90px;
 }
 .photo_amina {
   background-position: center;
   background-image: url("./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
-  background-size: cover; /* taille du backgrounf couvre tout*/
+  background-size: cover; /* taille du backgroung couvre tout*/
   border-radius: 10px 10px 0px 0px;
   height: 90px;
 }
@@ -496,20 +496,20 @@ p a {
 .photo_soleil_matin {
   background-position: center;
   background-image: url("./images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
-  background-size: cover; /* taille du backgrounf couvre tout*/
+  background-size: cover; /* taille du backgroung couvre tout*/
   border-radius: 10px 0px 0px 10px;
   height: 90px;
 }
 .photo_coeur_eau {
   background-position: center;
   background-image: url("./images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
-  background-size: cover; /* taille du backgrounf couvre tout*/
+  background-size: cover; /* taille du backgroung couvre tout*/
   border-radius: 10px 0px 0px 10px;
   height: 90px;
 }
 .photo_bleu {
   background-image: url("./images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
-  background-size: cover; /* taille du backgrounf couvre tout*/
+  background-size: cover; /* taille du backgroung couvre tout*/
   border-radius: 10px 0px 0px 10px;
   background-position: center;
   height: 90px;
@@ -580,21 +580,21 @@ p a {
 .photo_calanques {
   background-image: url("./images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
 
-  background-size: cover; /* taille du backgrounf couvre tout*/
+  background-size: cover; /* taille du backgroung couvre tout*/
   border-radius: 10px 10px 0px 0px;
   background-position: center;
 }
 .photo_lagarde {
   background-image: url("./images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
 
-  background-size: cover; /* taille du backgrounf couvre tout*/
+  background-size: cover; /* taille du backgroung couvre tout*/
   border-radius: 10px 10px 0px 0px;
   background-position: center;
 }
 .photo_longchamp {
   background-image: url("./images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
 
-  background-size: cover; /* taille du backgrounf couvre tout*/
+  background-size: cover; /* taille du backgroung couvre tout*/
   border-radius: 10px 10px 0px 0px;
   background-position: center;
 }
