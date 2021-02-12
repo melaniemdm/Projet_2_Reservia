@@ -297,7 +297,7 @@ margin-top: -1px;
   background-color: #f2f2f2;
   border-radius: 20px;
   display: grid;
-  font-size: 10px;
+  font-size: 12px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 10px 2fr 2fr;
   padding-left: 30px;
@@ -307,6 +307,9 @@ margin-top: -1px;
   grid-row-gap: 30px;
   margin-left: 5%;
   background-size: cover;
+}
+.hotel_hebergements p{
+  font-size: 12px;
 }
 /* surgras */
 #hebergements h3, #populaires h3, #activites h3, .trouver strong, .filtres, p strong, strong{
@@ -385,28 +388,28 @@ margin-top: -1px;
   background-image: url("./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
   background-size: cover; /* taille du backgroung couvre tout*/
   border-radius: 10px 10px 0px 0px;
-  height: 110px;
+  height: 100px;
   background-position: center;
 }
 .photo_hotel_port {
   background-image: url("./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
   background-size: cover; /* taille du backgroung couvre tout*/
   border-radius: 10px 10px 0px 0px;
-  height: 110px;
+  height: 100px;
   background-position: center;
 }
 .photo_mouettes {
   background-image: url("./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
   background-size: cover; /* taille du backgroung couvre tout*/
   border-radius: 10px 10px 0px 0px;
-  height: 110px;
+  height: 100px;
   background-position: center;
 }
 .photo_mer {
   background-image: url("./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
   background-size: cover; /* taille du backgroung couvre tout*/
   border-radius: 10px 10px 0px 0px;
-  height: 110px;
+  height: 100px;
   background-position: center;
 }
 .photo_panier {
@@ -414,14 +417,14 @@ margin-top: -1px;
   background-position: center;
   background-size: cover; /* taille du backgroung couvre tout*/
   border-radius: 10px 10px 0px 0px;
-  height: 110px;
+  height: 100px;
 }
 .photo_amina {
   background-position: center;
   background-image: url("./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
   background-size: cover; /* taille du backgroung couvre tout*/
   border-radius: 10px 10px 0px 0px;
-  height: 110px;
+  height: 100px;
 }
 
 /*section populaires*/
@@ -438,7 +441,7 @@ margin-top: -1px;
   padding-right: 30px;
   margin-right: 8%;
   padding-bottom: 60px;
-  font-size: 10px;
+  font-size: 12px;
 }
 @media all and (max-width: 700px){
 #populaires p{
@@ -551,7 +554,7 @@ p a {
 #activites {
   border-radius: 20px;
   display: grid;
-  font-size: 10px;
+  font-size: 12px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 15px 2fr 2fr 2fr 2fr 2fr 2fr;
   padding-left: 3%;
