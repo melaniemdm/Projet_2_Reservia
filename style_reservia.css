@@ -457,6 +457,7 @@ margin-top: -1px;
     padding-right: 3%;
     grid-column-gap: 30px;
     border-radius: 0;
+    padding-bottom: 20px;
   }
   .titre_populaire {
     grid-column: 1 / span 3;
