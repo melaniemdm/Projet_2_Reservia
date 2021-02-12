@@ -301,9 +301,9 @@ header {
   background-size: cover;
 }
 /* surgras */
-#hebergements h3, #populaires h3, #activites h3, .trouver strong, .filtres{
+#hebergements h3, #populaires h3, #activites h3, .trouver strong, .filtres, p strong, strong{
   font-family: "Raleway";
-  font-weight: 900;
+  font-weight: 800;
   grid-column: 1 / span 3;
 }
 
@@ -408,9 +408,7 @@ header {
 }
 
 /*section populaires*/
-#populaires > div {
-  font-size: 10px;
-}
+
 #populaires {
   background-color: #f2f2f2;
   border-radius: 20px;
@@ -423,6 +421,7 @@ header {
   padding-right: 30px;
   margin-right: 8%;
   padding-bottom: 60px;
+  font-size: 10px;
 }
 @media all and (max-width: 1024px) {
   /* vue tablette*/
