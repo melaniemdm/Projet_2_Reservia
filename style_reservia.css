@@ -1,10 +1,6 @@
 /*police*/
-@font-face {
-  font-family: "Raleway";
-  src: url("./Police/Raleway-VariableFont_wght.ttf");
-  font-weight: normal;
-  font-style: normal;
-}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* page pour divers ecran */
 #bloc_page {
@@ -304,8 +300,10 @@ header {
   margin-left: 5%;
   background-size: cover;
 }
-
-#hebergements h3 {
+/* surgras */
+#hebergements h3, #populaires h3, #activites h3, .trouver strong, .filtres{
+  font-family: "Raleway";
+  font-weight: 900;
   grid-column: 1 / span 3;
 }
 
