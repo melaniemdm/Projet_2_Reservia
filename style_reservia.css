@@ -440,6 +440,12 @@ margin-top: -1px;
   padding-bottom: 60px;
   font-size: 10px;
 }
+@media all and (max-width: 654px){
+#populaires p{
+  font-size: 9px;
+}
+}
+
 @media all and (max-width: 1024px) {
   /* vue tablette*/
   #populaires {
