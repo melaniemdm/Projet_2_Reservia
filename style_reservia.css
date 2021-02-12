@@ -370,7 +370,10 @@ margin-top: -1px;
     background-color: white;
   }
 }
-
+.hotel_hebergements p{
+  padding-top: 5px;
+  margin-bottom: 0;
+}
 #hebergements .div_figcaption {
   font-size: 10px;
   grid-template-rows: 1fr;
@@ -488,6 +491,11 @@ p a {
   grid-template-rows: 90px 2fr;
   grid-column-gap: 10px;
   border-radius: 20px 20px 20px 20px;
+}
+.hotel_populaires{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 @media all and (max-width: 600px) {
   /* vue mobile*/
