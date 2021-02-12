@@ -227,7 +227,11 @@ header {
   align-items: center;
   font-size: 11px;
   font-weight: bold;
-}
+  }
+  .monfiltre{
+    margin-right: 1%;
+    margin-bottom: 5px;
+  }
 .filtres a {
   display: flex;
   flex-direction: row;
@@ -247,11 +251,16 @@ header {
   border: #f2f2f2 solid 2px;
   border-radius: 20px 20px 20px 20px;
   margin-right: 10px;
-  margin-left: 25px;
+  
   padding-right: 20px;
   margin-bottom: 5px;
 }
-
+.filtre_elements .fa{
+font-size: 13px;
+margin-left: -7px;
+margin-bottom: -1px;
+margin-top: -1px;
+}
 
 /* Couleur de l'icon */
 .blue_icon {
