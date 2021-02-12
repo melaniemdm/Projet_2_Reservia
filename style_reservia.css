@@ -306,7 +306,10 @@ header {
   font-weight: 800;
   grid-column: 1 / span 3;
 }
-
+#hebergements a {
+ text-decoration: none;
+ color: black;
+ }
 #hebergements p {
   margin-left: 5px;
   padding-left: 2px;
@@ -335,6 +338,9 @@ header {
 }
 @media all and (max-width: 600px) {
   /* vue mobile*/
+  #hebergements a {
+       margin-left: 5%;
+   }
   #hebergements h3 {
     margin-left: 5%;
   }
