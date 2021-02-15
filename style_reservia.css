@@ -1,6 +1,6 @@
 /*police*/
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 /* page pour divers ecran */
 #bloc_page {
@@ -138,7 +138,7 @@ header {
   font-size: 10px;
 }
 .border_recherche {
-  display:flex;
+  display: flex;
   margin-bottom: 9px;
   font-size: 10px;
 }
@@ -162,7 +162,7 @@ header {
     padding-left: 0;
   }
   .couleur_map {
-  padding: 6px;
+    padding: 6px;
   }
 
   .formulaire_recherche input {
@@ -182,8 +182,8 @@ header {
   .loupe {
     display: flex;
     align-self: center;
-  padding: 4px;
-  align-items: center;
+    padding: 4px;
+    align-items: center;
   }
   #navigation {
     grid-column-gap: 0;
@@ -229,11 +229,11 @@ header {
   align-items: center;
   font-size: 11px;
   font-weight: bold;
-  }
-  .monfiltre{
-    margin-right: 1%;
-    margin-bottom: 5px;
-  }
+}
+.monfiltre {
+  margin-right: 1%;
+  margin-bottom: 5px;
+}
 .filtres a {
   display: flex;
   flex-direction: row;
@@ -253,24 +253,23 @@ header {
   border: #f2f2f2 solid 2px;
   border-radius: 20px 20px 20px 20px;
   margin-right: 10px;
-  
+
   padding-right: 20px;
   margin-bottom: 5px;
 }
-.filtre_elements .fa{
-font-size: 13px;
-margin-left: -7px;
-margin-bottom: -1px;
-margin-top: -1px;
+.filtre_elements .fa {
+  font-size: 13px;
+  margin-left: -7px;
+  margin-bottom: -1px;
+  margin-top: -1px;
 }
 
 /* Couleur de l'icon */
 .blue_icon {
-  color:#0065fc;
+  color: #0065fc;
 }
-.white_icon{
+.white_icon {
   color: #f2f2f2;
-  
 }
 /* couleur du cercle */
 .lightblue_icon {
@@ -314,19 +313,25 @@ margin-top: -1px;
   margin-left: 50px;
   background-size: cover;
 }
-.hotel_hebergements p{
+.hotel_hebergements p {
   font-size: 12px;
 }
 /* surgras */
-#hebergements h3, #populaires h3, #activites h3, .trouver strong, .filtres, p strong, strong{
+#hebergements h3,
+#populaires h3,
+#activites h3,
+.trouver strong,
+.filtres,
+p strong,
+strong {
   font-family: "Raleway";
   font-weight: 800;
   grid-column: 1 / span 3;
 }
 #hebergements a {
- text-decoration: none;
- color: black;
- }
+  text-decoration: none;
+  color: black;
+}
 #hebergements p {
   margin-left: 5px;
   padding-left: 2px;
@@ -355,7 +360,7 @@ margin-top: -1px;
 }
 @media all and (max-width: 600px) {
   /* vue mobile*/
- 
+
   #hebergements h3 {
     margin-left: 8px;
   }
@@ -377,7 +382,7 @@ margin-top: -1px;
     background-color: white;
   }
 }
-.hotel_hebergements p{
+.hotel_hebergements p {
   padding-top: 5px;
   margin-bottom: 0;
 }
@@ -447,14 +452,14 @@ margin-top: -1px;
   padding-bottom: 60px;
   font-size: 12px;
 }
-.hotel_populaires p{
-  margin-top:5px ;
+.hotel_populaires p {
+  margin-top: 5px;
   margin-bottom: 0;
 }
-@media all and (max-width: 700px){
-#populaires p{
-  font-size: 12px;
-}
+@media all and (max-width: 700px) {
+  #populaires p {
+    font-size: 12px;
+  }
 }
 
 @media all and (max-width: 1024px) {
@@ -478,7 +483,7 @@ margin-top: -1px;
 @media all and (max-width: 600px) {
   /* vue mobile*/
   #populaires h3 {
-    margin-left: 8px ;
+    margin-left: 8px;
   }
   #populaires {
     display: flex;
@@ -510,7 +515,7 @@ p a {
   grid-column-gap: 10px;
   border-radius: 20px 20px 20px 20px;
 }
-.hotel_populaires{
+.hotel_populaires {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -529,11 +534,11 @@ p a {
 }
 @media all and (max-width: 1024px) {
   /* vue tablette*/
-  .page_populaires{
+  .page_populaires {
     grid-template-columns: 70px 10em;
   }
 }
-  /* vue mobile*/
+/* vue mobile*/
 /* mise en page photo populaires*/
 .photo_soleil_matin {
   background-position: center;
@@ -648,7 +653,7 @@ p a {
 /* mise ne page de section*/
 .premiere {
   display: grid;
-  grid-template-columns: 2fr 1fr ;
+  grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr;
   grid-column-gap: 1%;
   grid-row-gap: 15px;
@@ -715,4 +720,4 @@ p a {
 .grand_longchamp .div_figcaption {
   height: 100%;
   border: none;
-  }
+}
