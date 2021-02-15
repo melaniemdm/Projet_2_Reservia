@@ -154,6 +154,7 @@ header {
   .trouver {
     align-self: center;
     padding: 4px;
+    padding-top: 20px;
     align-items: center;
   }
   header {
