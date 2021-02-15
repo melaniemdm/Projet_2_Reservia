@@ -280,6 +280,7 @@ margin-top: -1px;
   flex-wrap: nowrap;
   align-items: center;
   font-size: 10px;
+  margin-left: -5px;
   margin-right: 10px;
   padding-right: 20px;
 }
