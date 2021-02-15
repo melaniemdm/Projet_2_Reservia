@@ -352,11 +352,9 @@ margin-top: -1px;
 }
 @media all and (max-width: 600px) {
   /* vue mobile*/
-  #hebergements a {
-       margin-left: 5%;
-   }
+ 
   #hebergements h3 {
-    margin-left: 5%;
+    margin-left: 8px;
   }
   .div_figcaption {
     display: flex;
@@ -448,7 +446,7 @@ margin-top: -1px;
 }
 @media all and (max-width: 700px){
 #populaires p{
-  font-size: 9px;
+  font-size: 12px;
 }
 }
 
@@ -473,7 +471,7 @@ margin-top: -1px;
 @media all and (max-width: 600px) {
   /* vue mobile*/
   #populaires h3 {
-    margin-left: 5%;
+    margin-left: 8px ;
   }
   #populaires {
     display: flex;
@@ -500,7 +498,7 @@ p a {
 
 .page_populaires {
   display: grid;
-  grid-template-columns: 70px 45%;
+  grid-template-columns: 70px 10em;
   grid-template-rows: 90px 2fr;
   grid-column-gap: 10px;
   border-radius: 20px 20px 20px 20px;
@@ -525,7 +523,7 @@ p a {
 @media all and (max-width: 1024px) {
   /* vue tablette*/
   .page_populaires{
-    grid-template-columns: 70px 50%;
+    grid-template-columns: 70px 10em;
   }
 }
   /* vue mobile*/
@@ -574,7 +572,7 @@ p a {
 @media all and (max-width: 600px) {
   /* vue mobile*/
   #activites h3 {
-    margin-left: 5%;
+    margin-left: 8px;
   }
   #activites {
     display: flex;
