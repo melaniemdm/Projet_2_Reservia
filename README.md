@@ -29,4 +29,4 @@ Dans le menu, les liens “Hébergements” et “Activités” sont des ancres 
 
 ## Lien gitHub pages
 
-lien : [lien vers gitHub pages](https://melaniemdm.github.io/)
+lien : [lien vers gitHub pages](https://melaniemdm.github.io/#projet-reservia)
