@@ -304,12 +304,12 @@ margin-top: -1px;
   font-size: 12px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 10px 2fr 2fr;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
   padding-bottom: 10px;
-  grid-column-gap: 30px;
-  grid-row-gap: 30px;
-  margin-left: 5%;
+  grid-column-gap: 33px;
+  grid-row-gap: 33px;
+  margin-left: 50px;
   background-size: cover;
 }
 .hotel_hebergements p{
@@ -437,13 +437,16 @@ margin-top: -1px;
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: 10px 2fr 2fr 2fr;
-  grid-column-gap: 10px;
-  grid-row-gap: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
+  grid-column-gap: 33px;
+  grid-row-gap: 33px;
+  padding-left: 40px;
+  padding-right: 40px;
   margin-right: 8%;
   padding-bottom: 60px;
   font-size: 12px;
+}
+.hotel_populaires p{
+  margin-top:5px ;
 }
 @media all and (max-width: 700px){
 #populaires p{
