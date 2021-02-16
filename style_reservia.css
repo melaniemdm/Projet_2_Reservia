@@ -337,7 +337,7 @@ strong {
   padding-left: 2px;
   margin-top: 0px;
 }
-.div_figcaption {
+.card {
   border: white solid 3px;
   background-color: white;
   border-radius: 10px 10px 10px 10px;
@@ -345,7 +345,7 @@ strong {
   grid-template-rows: 2fr;
   box-shadow: 3px 5px 5px #e2e2e2;
 }
-.div_figcaption a {
+.card a {
   text-decoration: none;
   color: black;
 }
@@ -364,7 +364,7 @@ strong {
   #hebergements h3 {
     margin-left: 8px;
   }
-  .div_figcaption {
+  .card {
     display: flex;
     flex-direction: column;
     margin-left: 5%;
@@ -386,7 +386,7 @@ strong {
   padding-top: 5px;
   margin-bottom: 0;
 }
-#hebergements .div_figcaption {
+#hebergements .card {
   font-size: 10px;
   grid-template-rows: 1fr;
   background-size: cover;
@@ -712,12 +712,12 @@ p a {
   grid-column-start: 2;
 }
 
-.grandport .div_figcaption,
-.grandparc .div_figcaption,
-.grand_pomegues .div_figcaption,
-.grand_lagarde .div_figcaption,
-.grand_frioul .div_figcaption,
-.grand_longchamp .div_figcaption {
+.grandport .card,
+.grandparc .card,
+.grand_pomegues .card,
+.grand_lagarde .card,
+.grand_frioul .card,
+.grand_longchamp .card {
   height: 100%;
   border: none;
 }
