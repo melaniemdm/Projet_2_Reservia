@@ -218,11 +218,16 @@ footer {
   }
   .couleur_map {
     padding: 6px;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
   }
-
+  .formulaire_recherche {
+    height: 48px;
+  }
   .formulaire_recherche input {
-    padding-top: 5px;
-    padding-bottom: 8px;
+    height: 100%;
+    
   }
   .border_recherche {
     margin-bottom: 15px;
@@ -232,14 +237,18 @@ footer {
   }
   .couleur_rechercher {
     padding: 6px;
-    border-radius: 7px 7px 7px 7px;
+    border-radius: 15px;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    margin-left: -10px;
   }
   .loupe {
     display: flex;
     align-self: center;
     padding: 4px;
     align-items: center;
-  }
+      }
   #navigation {
     grid-column-gap: 0;
     grid-template-columns: 1fr 1fr;
