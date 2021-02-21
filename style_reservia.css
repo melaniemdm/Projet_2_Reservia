@@ -11,6 +11,8 @@
   /* vue mobile*/
   #bloc_page {
     width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 body {
@@ -24,6 +26,10 @@ html{
   margin: 0; /* reset (par defaut des navigateurs)*/
   padding: 0; /* reset (par defaut des navigateurs)*/
 }
+
+
+
+
 /*---------------------------------------------------------------------------------------------------------*/
 /*-------------------------------------------          ----------------------------------------------------*/
 /*-------------------------------------------  ------------------------------------------------------------*/
@@ -79,6 +85,12 @@ footer {
   width: 100px;
   
 }
+@media all and (max-width: 600px) {
+  /* vue mobile*/
+  #logo img {
+    margin-top: 25px;}
+  
+  }
 
 #navigation {
   padding-top: 45px;
@@ -113,6 +125,12 @@ footer {
   padding-top: 45px;
   padding-right: 2%;
   font-size: 17px;
+}
+@media all and (max-width: 600px) {
+  /* vue mobile*/
+  #inscription {
+    margin-right: 5px;
+
 }
 
 /*recherche - loupe - style zone rechercher*/
