@@ -354,8 +354,14 @@ footer {
   margin-left: -18px;
   margin-top: -2px;
 }
+.filtre_elements .fa-stack-1x {
+  font-size: 17px;
+  }
 @media all and (max-width: 600px) {
   /* vue mobile filtre*/
+  .icon_info{
+    margin-top: -4px;
+  }
   .monfiltre {
     margin-right: 1%;
     margin-bottom: 20px;
@@ -383,9 +389,7 @@ footer {
     font-size: 14px;
     margin-left: 10px;
     }
-.filtre_elements .fa-stack-1x {
-  font-size: 17px;
-  }
+
 }
 /* Couleur de l'icon */
 .blue_icon {
