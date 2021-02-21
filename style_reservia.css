@@ -456,6 +456,7 @@ padding-right: 0;
   grid-column-gap: 33px;
   grid-row-gap: 33px;
    background-size: cover;
+   padding-bottom: 45px;
 }
 .hotel_hebergements{
   padding-left: 15px;
@@ -472,7 +473,12 @@ padding-top: 10px;
   font-size: 14px;
   padding-top: 8px;
 }
-
+.plus{
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
   
 #hebergements h3,
 #populaires h3,
