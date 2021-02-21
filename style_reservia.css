@@ -132,7 +132,7 @@ footer {
     margin-right: 5px;
 
 }
-
+}
 /*recherche - loupe - style zone rechercher*/
 .couleur_map {                    /*btn Map*/
   border: #f2f2f2 solid 2px;
@@ -319,7 +319,6 @@ footer {
 }
 .monfiltre {
   margin-right: 1%;
-  margin-left: 10px;
   margin-bottom: 10px;
 }
 .filtres a {
@@ -357,18 +356,17 @@ footer {
   /* vue mobile filtre*/
   .monfiltre {
     margin-right: 1%;
-    margin-left: 0;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .filtres_responsive{
     justify-content:left;
-    row-gap: 10px;
-    gap: 5px;
+   gap: 13px;
     margin-left: 0;
-  }
+   }
   .filtres{
     gap:0;
     margin-left: 0;
+    margin-right: 0;
   }
   .filtre_elements {
     display: flex;
@@ -379,7 +377,7 @@ footer {
     margin-right: 5px;
     height: 46px;
     padding-right: 10px;
-    font-size: 16px;
+    font-size: 14px;
     margin-left: 10px;
     }
 .filtre_elements .fa-stack-1x {
@@ -402,16 +400,29 @@ footer {
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
-  font-size: 16px;
-  
+  font-size: 14px;
   margin-right: 10px;
   padding-right: 20px;
+}
+.icon_info{
+  margin-right: 10px;
 }
 .filtres_responsive {
   display: flex;
   flex-wrap: wrap;
 }
+@media all and (max-width: 600px) {
+  /* vue mobile filtre*/
+  .filtre_elements2 {   
+font-size: 14px;
+  }
+  .filtre_elements2 fa{
+    background-color: yellow;
+    margin-right: 20px;
+  }
 
+
+}
 /*---------------------------------------------------------------------------------------------------------*/
 /*----------------------------------          -------------------------------------------------------------*/
 /*----------------------------------  ---------------------------------------------------------------------*/
