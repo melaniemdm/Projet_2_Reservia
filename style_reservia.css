@@ -448,24 +448,35 @@ padding-right: 0;
   background-color: #f2f2f2;
   border-radius: 20px;
   display: grid;
-  font-size: 12px;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 55px 2fr;
+  grid-template-rows: 55px 1fr 1fr;
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 10px;
   grid-column-gap: 33px;
   grid-row-gap: 33px;
-  
-  background-size: cover;
+   background-size: cover;
 }
-.hotel_hebergements p {
+.hotel_hebergements{
+  padding-left: 15px;
+}
+.hotel_hebergements div {
   font-size: 12px;
+  padding-top: 8px;
 }
+.hotel_hebergements .nom_hotel{
+font-size: 16px;
+padding-top: 10px;
+}
+.hotel_hebergements .tarifs_nuit{
+  font-size: 14px;
+  padding-top: 8px;
+}
+
+  
 #hebergements h3,
 #populaires h3,
 #activites h3{
-  background-color: yellow;
   height: 58px;
   font-size: 22px;
  justify-content: center;
@@ -492,13 +503,13 @@ strong {
 }
 #hebergements p {
   margin-left: 5px;
-  padding-left: 2px;
+  padding-left: 1px;
   margin-top: 0px;
 }
 .card {
-  border: white solid 3px;
+  border: white solid 5px;
   background-color: white;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 20px;
   display: grid;
   grid-template-rows: 2fr;
   box-shadow: 3px 5px 5px #e2e2e2;
@@ -540,10 +551,8 @@ strong {
     background-color: white;
   }
 }
-.hotel_hebergements p {
-  padding-top: 5px;
-  margin-bottom: 0;
-}
+
+
 #hebergements .card {
   font-size: 10px;
   grid-template-rows: 1fr;
@@ -555,28 +564,28 @@ strong {
   background-image: url("./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
   background-size: cover; /* taille du backgroung couvre tout*/
   border-radius: 10px 10px 0px 0px;
-  height: 100px;
+  height: 110px;
   background-position: center;
 }
 .photo_hotel_port {
   background-image: url("./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
   background-size: cover; /* taille du backgroung couvre tout*/
   border-radius: 10px 10px 0px 0px;
-  height: 100px;
+  height: 110px;
   background-position: center;
 }
 .photo_mouettes {
   background-image: url("./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
   background-size: cover; /* taille du backgroung couvre tout*/
   border-radius: 10px 10px 0px 0px;
-  height: 100px;
+  height: 110px;
   background-position: center;
 }
 .photo_mer {
   background-image: url("./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
   background-size: cover; /* taille du backgroung couvre tout*/
   border-radius: 10px 10px 0px 0px;
-  height: 100px;
+  height: 110px;
   background-position: center;
 }
 .photo_panier {
@@ -584,14 +593,14 @@ strong {
   background-position: center;
   background-size: cover; /* taille du backgroung couvre tout*/
   border-radius: 10px 10px 0px 0px;
-  height: 100px;
+  height: 110px;
 }
 .photo_amina {
   background-position: center;
   background-image: url("./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
   background-size: cover; /* taille du backgroung couvre tout*/
   border-radius: 10px 10px 0px 0px;
-  height: 100px;
+  height: 110px;
 }
 
 /*section populaires*/
