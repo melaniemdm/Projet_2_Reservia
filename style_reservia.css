@@ -13,6 +13,7 @@
   }
 }
 body {
+  margin: 0;
   font-family: "Raleway", Arial, "sans-sherif";
   color: black;
 }
@@ -86,7 +87,7 @@ header {
 #navigation p :hover {
   border-top: #0065fc solid 2px;
   color: #0065fc;
-  padding-top: 15px;
+  padding-top: 20px;
   align-items: center;
 }
 .mini {
