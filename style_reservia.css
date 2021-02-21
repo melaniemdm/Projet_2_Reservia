@@ -412,7 +412,7 @@ footer {
   margin-right: 10px;
   padding-right: 20px;
   padding-top: 35px;
-  padding-bottom: 40px;
+  padding-bottom: 34px;
 }
 .icon_info{
   margin-right: 10px;
@@ -450,18 +450,30 @@ padding-right: 0;
   display: grid;
   font-size: 12px;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 10px 2fr 2fr;
+  grid-template-rows: 55px 2fr;
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 10px;
   grid-column-gap: 33px;
   grid-row-gap: 33px;
-  margin-left: 50px;
+  
   background-size: cover;
 }
 .hotel_hebergements p {
   font-size: 12px;
 }
+#hebergements h3,
+#populaires h3,
+#activites h3{
+  background-color: yellow;
+  height: 58px;
+  font-size: 22px;
+ justify-content: center;
+  justify-items:center;
+  line-height: 58px;
+}
+
+
 /* surgras */
 #hebergements h3,
 #populaires h3,
