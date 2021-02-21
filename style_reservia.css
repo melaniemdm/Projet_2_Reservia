@@ -286,7 +286,7 @@ footer {
   align-items: center;
   text-decoration: none;
   color: black;
-  margin-top: -1px;
+  margin-top: -10px;
 }
 .filtres a:hover {
   color: #0065fc;
@@ -326,8 +326,8 @@ footer {
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
-  font-size: 17px;
-  margin-left: -5px;
+  font-size: 16px;
+  
   margin-right: 10px;
   padding-right: 20px;
 }
