@@ -245,21 +245,36 @@ footer {
     grid-template-columns: 1fr 1fr;
     border-bottom: #deebff solid 2px;
     grid-column: 1 / span2;
+    margin-right: -10px;
+    margin-left: -10px;
+    padding-top: 0;
+    
   }
-  #navigation p {
+  #navigation div {
     width: 100%;
     height: 100%;
     margin-top: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+   
+        }
+        #navigation div a{
+          font-size: 15px;
+        }
+    #navigation div :hover {
+      border-top: none ;
+      color: #0065fc;
+      padding-top: 0;
+      
+    }
+    #navigation :hover{
+      border-bottom: #0065fc solid 2px;
   }
-  #navigation p a:hover {
-    border-top: none;
+  #navigation a:hover{
+    border-bottom: none;
   }
-  #navigation p:hover {
-    border-bottom: #0065fc solid 2px;
-  }
+
   #logo {
     padding-left: 3%;
   }
@@ -273,7 +288,7 @@ footer {
   #entete {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 55px;
   }
 }
 /* mise en page et style du filtre */
