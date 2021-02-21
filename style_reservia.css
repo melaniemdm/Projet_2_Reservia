@@ -403,6 +403,8 @@ footer {
   font-size: 14px;
   margin-right: 10px;
   padding-right: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .icon_info{
   margin-right: 10px;
@@ -415,11 +417,12 @@ footer {
   /* vue mobile filtre*/
   .filtre_elements2 {   
 font-size: 14px;
+align-items: flex-start;
+
   }
-  .filtre_elements2 fa{
-    background-color: yellow;
-    margin-right: 20px;
-  }
+  .icon_info{
+    font-size: 11px;
+     }
 
 
 }
