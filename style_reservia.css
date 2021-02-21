@@ -319,7 +319,7 @@ footer {
 }
 .monfiltre {
   margin-right: 1%;
-  margin-bottom: 10px;
+  margin-bottom: 0;
 }
 .filtres a {
   display: flex;
@@ -329,7 +329,8 @@ footer {
   align-items: center;
   text-decoration: none;
   color: black;
-  margin-top: -10px;
+  height: 46px;
+  line-height: 46px;
 }
 .filtres a:hover {
   color: #0065fc;
@@ -345,6 +346,7 @@ footer {
   border-radius: 20px 20px 20px 20px;
   margin-right: 20px;
   height: 46px;
+  line-height: 46px;
   padding-right: 38px;
   }
 .filtre_elements .fa {
@@ -376,6 +378,7 @@ footer {
     border-radius: 20px 20px 20px 20px;
     margin-right: 5px;
     height: 46px;
+    line-height: 46px;
     padding-right: 10px;
     font-size: 14px;
     margin-left: 10px;
