@@ -200,7 +200,7 @@ footer {
   font-size: 22px;
 }
 .trouver form{         /* espace entre en pleine nature et la bare de recherche*/
-  padding-top: 20px;
+  padding-top: 17px;
 }
 .trouver .mini{
   margin-top: 10px;   /* espace entre trouvez et en pleine nature*/
@@ -320,6 +320,7 @@ footer {
 .monfiltre {
   margin-right: 1%;
   margin-bottom: 0;
+  margin-left: 10px;
 }
 .filtres a {
   display: flex;
@@ -343,11 +344,11 @@ footer {
   justify-content: center;
   align-items: center;
   border: #f2f2f2 solid 2px;
-  border-radius: 20px 20px 20px 20px;
-  margin-right: 20px;
+  border-radius: 50px;
+  margin-right: 29px;
   height: 46px;
   line-height: 46px;
-  padding-right: 38px;
+  padding-right: 25px;
   }
 .filtre_elements .fa {
   font-size: 26px;
@@ -407,14 +408,15 @@ footer {
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
-  font-size: 14px;
+  font-size: 16px;
   margin-right: 10px;
   padding-right: 20px;
-  padding-top: 40px;
+  padding-top: 35px;
   padding-bottom: 40px;
 }
 .icon_info{
   margin-right: 10px;
+  font-size: 14px;
 }
 .filtres_responsive {
   display: flex;
@@ -423,8 +425,9 @@ footer {
 @media all and (max-width: 600px) {
   /* vue mobile filtre*/
   .filtre_elements2 {   
-font-size: 14px;
+font-size: 15px;
 align-items: flex-start;
+padding-right: 0;
 
   }
   .icon_info{
