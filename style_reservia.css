@@ -216,6 +216,9 @@ footer {
   header {
     padding-left: 0;
   }
+  .trouver form{         /* espace entre en pleine nature et la bare de recherche*/
+    padding-top: 35px;
+  }
   .couleur_map {
     padding: 6px;
     height: 35px;
