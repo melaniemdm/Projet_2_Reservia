@@ -66,8 +66,13 @@ footer nav{
 /*responsive pour les mobiles*/
 @media all and (max-width: 600px) {
   footer {
-    display: block;
+    display: flex;
+    flex-direction: column;
     padding-left: 30px;
+margin-left: -10px;
+margin-right: -10px;
+row-gap: 10px;
+padding-bottom: 40px;
   }
 }
 /*---------------------------------------------------------------------------------------------------------*/
