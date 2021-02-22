@@ -667,30 +667,9 @@ strong {
   }
 }
 
-@media all and (max-width: 1024px) {
-  /* vue tablette*/
-  #populaires {
-    display: grid;
-    grid-template-rows: 10px 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-right: 0;
-    padding-left: 3%;
-    padding-right: 3%;
-    grid-column-gap: 35px;
-    border-radius: 0;
-    padding-bottom: 20px;
-  }
-  .titre_populaire {
-    grid-column: 1 / span 3;
-  }
-}
-
 @media all and (max-width: 600px) {
   /* vue mobile*/
-  
-
-
-  #populaires h3 {
+    #populaires h3 {
     margin-left: 8px;
   }
   #populaires {
@@ -761,12 +740,7 @@ padding-left: 11px;
     padding-right: 15px;
   }
 
-/* @media all and (max-width: 1024px) {
-  /* vue tablette
-  .page_populaires {
-    grid-template-columns: 110px 200px;
-  }
-} */ 
+
 /* vue mobile*/
 /* mise en page photo populaires*/
 .photo_soleil_matin {
@@ -903,6 +877,31 @@ padding-left: 11px;
     flex-direction: column-reverse;
   }
 }
+
+@media all and (max-width: 1024px) {     /* vue tablette*/
+  #activites {
+  display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;}
+  
+  .grandport .card_activites,
+.grandparc .card_activites,
+.grand_pomegues .card_activites,
+.grand_lagarde .card_activites,
+.grand_frioul .card_activites,
+.grand_longchamp .card_activites  {
+  height: 200px;
+  width: 70%;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+.photo_vieux_port{
+  height: auto;
+}
+
+}
+
 @media all and (max-width: 600px) {
   /* vue mobile*/
   .premiere {
@@ -916,7 +915,15 @@ padding-left: 11px;
   .photo_lagarde,
   .photo_longchamp {
     height: 150px;
-  }
+    }
+    .grandport .card_activites,
+    .grandparc .card_activites,
+    .grand_pomegues .card_activites,
+    .grand_lagarde .card_activites,
+    .grand_frioul .card_activites,
+    .grand_longchamp .card_activites  {
+            width: 100%;
+    }
 }
 
 .grey_icon {
@@ -966,3 +973,6 @@ padding-left: 11px;
 .grand_frioul{
       margin-top: -40px;
   }
+
+ 
+  
