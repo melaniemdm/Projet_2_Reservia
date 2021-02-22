@@ -561,10 +561,13 @@ strong {
   /* vue tablette*/
   #hebergements {
     margin-left: 0;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 0;
+    padding-right: 0;
     background-color: white;
+    grid-column-gap: 20px;
   }
+
+
 }
 @media all and (max-width: 600px) {
   /* vue mobile*/
