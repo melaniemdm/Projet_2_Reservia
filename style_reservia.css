@@ -762,6 +762,8 @@ p a {
   display: flex;
   flex-direction: column;
   font-size: 15px;
+  width:170px ;
+    
 }
 .page_populaires .stars{
 padding-top: 45px;
