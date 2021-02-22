@@ -65,6 +65,26 @@ footer nav{
 .footer_style strong {
   font-weight: bold;
 }
+
+@media all and (max-width: 1024px) {           /* tablette*/
+  footer {
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 18px;
+  margin-left:-52px ; 
+  margin-right:-50px ; 
+  padding-bottom: 50px;
+  padding-left: 52px;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-right: 50px;
+
+}
+    }
+
+
 /*responsive pour les mobiles*/
 @media all and (max-width: 600px) {
   footer {
