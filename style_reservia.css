@@ -16,6 +16,7 @@
   }
 }
 body {
+  background-color: rgb(245, 209, 231);
   margin: 0; /* reset (par defaut des navigateurs)*/
   padding: 0; /* reset (par defaut des navigateurs)*/
   font-family: "Raleway", Arial, "sans-sherif";
@@ -740,6 +741,7 @@ padding-left: 11px;
     grid-template-columns: 130px 170px;
     }
   }
+
   #populaires p {
     margin-left: 5px;
   }
@@ -748,7 +750,7 @@ padding-left: 11px;
     justify-content: space-between;
     padding-right: 15px;
   }
-}
+
 @media all and (max-width: 1024px) {
   /* vue tablette*/
   .page_populaires {
@@ -780,19 +782,27 @@ padding-left: 11px;
 }
 
 /* section activité*/
-
+.card_activites{
+  border: white solid 5px;
+  background-color: white;
+  border-radius: 20px;
+  display: grid;
+  grid-template-rows: 2fr;
+  box-shadow: 3px 5px 5px #e2e2e2;
+}
+.card_activites p{
+  padding-left: 15px;
+}
 #activites {
   border-radius: 20px;
   display: grid;
-  font-size: 12px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 15px 2fr 2fr 2fr 2fr 2fr 2fr;
-  padding-left: 3%;
-  padding-right: 3%;
-  grid-column-gap: 3%;
+  font-size: 16px;
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-template-rows: 55px 2fr 2fr 2fr 2fr 2fr 2fr;
+  grid-column-gap: 45px;
   grid-row-gap: 30px;
   padding-bottom: 50px;
-  padding-top: 10px;
+  padding-top: 30px;
 }
 #activites a {
   text-decoration: none;
@@ -822,44 +832,41 @@ padding-left: 11px;
 /* mise en page photos activités*/
 .photo_vieux_port {
   background-image: url("./images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
-
   background-size: cover; /* taille du backgrounf couvre tout*/
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 20px 20px 0px 0px;
   background-position: center;
+  height: 390px;
 }
 .photo_pomegues {
   background-image: url("./images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
-
   background-size: cover; /* taille du backgrounf couvre tout*/
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 20px 20px 0px 0px;
   background-position: center;
-}
+  
+  }
 .photo_frioul {
   background-image: url("./images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
   background-size: cover; /* taille du backgrounf couvre tout*/
-  border-radius: 10px 10px 0px 0px;
-  height: 70px;
+  border-radius: 20px 20px 0px 0px;
   background-position: center;
+  
 }
 .photo_calanques {
   background-image: url("./images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
-
   background-size: cover; /* taille du backgroung couvre tout*/
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 20px 20px 0px 0px;
   background-position: center;
 }
 .photo_lagarde {
   background-image: url("./images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
-
   background-size: cover; /* taille du backgroung couvre tout*/
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 20px 20px 0px 0px;
   background-position: center;
 }
 .photo_longchamp {
   background-image: url("./images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
-
   background-size: cover; /* taille du backgroung couvre tout*/
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 20px 20px 0px 0px;
   background-position: center;
 }
 
@@ -929,12 +936,19 @@ padding-left: 11px;
   grid-column-start: 2;
 }
 
-.grandport .card,
-.grandparc .card,
-.grand_pomegues .card,
-.grand_lagarde .card,
-.grand_frioul .card,
-.grand_longchamp .card {
+.grandport .card_activites,
+.grandparc .card_activites,
+.grand_pomegues .card_activites,
+.grand_lagarde .card_activites,
+.grand_frioul .card_activites,
+.grand_longchamp .card_activites {
   height: 100%;
   border: none;
 }
+
+.grand_pomegues{
+  margin-bottom: 40px;
+}
+.grand_frioul{
+      margin-top: -40px;
+  }
