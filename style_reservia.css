@@ -102,14 +102,14 @@ footer nav{
   width: 100px;
   
 }
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1024px) {           /*hauteur logo tablette*/
   #logo img {
     margin-top: 30px;}
 
   }
 
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 600px) {       /*hauteur logo mobile*/
   /* vue mobile*/
   #logo img {
     margin-top: 25px;}
