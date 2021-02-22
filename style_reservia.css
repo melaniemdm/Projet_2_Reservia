@@ -102,12 +102,20 @@ footer nav{
   width: 100px;
   
 }
+@media all and (max-width: 1024px) {
+  #logo img {
+    margin-top: 30px;}
+
+  }
+
+
 @media all and (max-width: 600px) {
   /* vue mobile*/
   #logo img {
     margin-top: 25px;}
   
   }
+ 
 
 #navigation {
   padding-top: 45px;
@@ -143,6 +151,9 @@ footer nav{
   padding-right: 2%;
   font-size: 17px;
 }
+
+
+
 @media all and (max-width: 600px) {
   /* vue mobile*/
   #inscription {
