@@ -449,14 +449,14 @@ padding-right: 0;
   border-radius: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 55px 1fr 1fr;
+  grid-template-rows: 55px 1fr 1fr 50px;
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 10px;
   grid-column-gap: 33px;
   grid-row-gap: 33px;
    background-size: cover;
-   padding-bottom: 45px;
+   
 }
 .hotel_hebergements{
   padding-left: 15px;
@@ -476,7 +476,6 @@ padding-top: 10px;
 .plus{
   font-weight: bold;
   font-size: 18px;
-  padding-top: 10px;
   padding-left: 5px;
 }
   
@@ -512,7 +511,7 @@ strong {
   padding-left: 1px;
   margin-top: 0px;
 }
-.card {
+.card_hebergements {
   border: white solid 5px;
   background-color: white;
   border-radius: 20px;
@@ -520,7 +519,7 @@ strong {
   grid-template-rows: 2fr;
   box-shadow: 3px 5px 5px #e2e2e2;
 }
-.card a {
+.card_hebergements a {
   text-decoration: none;
   color: black;
 }
@@ -539,7 +538,7 @@ strong {
   #hebergements h3 {
     margin-left: 8px;
   }
-  .card {
+  .card_hebergements {
     display: flex;
     flex-direction: column;
     margin-left: 5%;
@@ -559,9 +558,8 @@ strong {
 }
 
 
-#hebergements .card {
+#hebergements .card_hebergements {
   font-size: 10px;
-  grid-template-rows: 1fr;
   background-size: cover;
 }
 
@@ -610,21 +608,33 @@ strong {
 }
 
 /*section populaires*/
-
+.card_populaires{
+  background-color: #fff;
+  border-radius: 20px;
+  border: 5px solid white;
+}
+.card_populaires a{
+  text-decoration: none;
+  color: black;
+}
 #populaires {
   background-color: #f2f2f2;
   border-radius: 20px;
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 10px 2fr 2fr 2fr;
-  grid-column-gap: 33px;
+  grid-template-rows: 55px 2fr 2fr 2fr;
   grid-row-gap: 33px;
-  padding-left: 40px;
-  padding-right: 40px;
-  margin-right: 8%;
-  padding-bottom: 60px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 30px;
   font-size: 12px;
 }
+.titre_populaire div{
+  font-size: 23px;
+  align-items: center;
+  height: 100px;
+  line-height: 100px;
+ }
 .hotel_populaires p {
   margin-top: 5px;
   margin-bottom: 0;
@@ -683,15 +693,29 @@ p a {
 
 .page_populaires {
   display: grid;
-  grid-template-columns: 70px 10em;
-  grid-template-rows: 90px 2fr;
+  grid-template-columns: 135px 1fr;
   grid-column-gap: 10px;
   border-radius: 20px 20px 20px 20px;
 }
+.page_populaires .nom_hotel{
+  font-size: 16px;
+  padding-top: 11px;
+  padding-left: 10px;
+  }
+  .page_populaires .tarifs_nuit{
+    padding-left: 11px; 
+    font-size: 14px; 
+    padding-top: 10px;
+  }
 .hotel_populaires {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  font-size: 15px;
+}
+.page_populaires .stars{
+padding-top: 45px;
+font-size: 11px;
+padding-left: 11px;
 }
 @media all and (max-width: 600px) {
   /* vue mobile*/
@@ -717,22 +741,22 @@ p a {
   background-position: center;
   background-image: url("./images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
   background-size: cover; /* taille du backgroung couvre tout*/
-  border-radius: 10px 0px 0px 10px;
-  height: 90px;
+  border-radius: 20px 0px 0px 20px;
+  height: 135px;
 }
 .photo_coeur_eau {
   background-position: center;
   background-image: url("./images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
   background-size: cover; /* taille du backgroung couvre tout*/
-  border-radius: 10px 0px 0px 10px;
-  height: 90px;
+  border-radius: 20px 0px 0px 20px;
+  height: 135px;
 }
 .photo_bleu {
   background-image: url("./images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
   background-size: cover; /* taille du backgroung couvre tout*/
-  border-radius: 10px 0px 0px 10px;
+  border-radius: 20px 0px 0px 20px;
   background-position: center;
-  height: 90px;
+  height: 135px;
 }
 
 /* section activité*/
@@ -826,9 +850,9 @@ p a {
 /* mise ne page de section*/
 .premiere {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 30fr 14fr;
   grid-template-rows: 1fr;
-  grid-column-gap: 1%;
+  grid-column-gap: 3%;
   grid-row-gap: 15px;
 }
 @media all and (max-width: 1024px) {
