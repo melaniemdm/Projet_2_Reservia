@@ -534,7 +534,10 @@ strong {
 }
 @media all and (max-width: 600px) {
   /* vue mobile*/
-  
+  .plus{
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
   #hebergements h3 {
     margin-left: 8px;
     height: 0;
