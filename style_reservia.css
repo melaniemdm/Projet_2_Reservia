@@ -672,6 +672,12 @@ strong {
     font-size: 12px;
   }
 }
+@media all and (max-width: 1024px) {     /* vue tablette*/
+  .hotel_populaires {
+  width:170px ;
+  }
+
+}
 
 @media all and (max-width: 600px) {
   /* vue mobile*/
