@@ -16,8 +16,7 @@
   }
 }
 body {
-  background-color: rgb(245, 209, 231);
-  margin: 0; /* reset (par defaut des navigateurs)*/
+    margin: 0; /* reset (par defaut des navigateurs)*/
   padding: 0; /* reset (par defaut des navigateurs)*/
   font-family: "Raleway", Arial, "sans-sherif";
   color: black;
