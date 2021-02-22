@@ -967,7 +967,7 @@ padding-left: 11px;
     #activites{
       display: grid;
       grid-template-columns: 1fr 1fr;
-
+      grid-template-rows: 55px 1fr 1fr 1fr;
     }
     .grandport {
       grid-row: 2 ;
