@@ -563,8 +563,6 @@ strong {
   .card_hebergements {
     display: flex;
     flex-direction: column;
-    margin-left: 5%;
-    margin-right: 5%;
     margin-bottom: 5%;
   }
   #hebergements {
@@ -590,28 +588,28 @@ strong {
 .photo_cannebiere {
   background-image: url("./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
   background-size: cover; /* taille du backgroung couvre tout*/
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 20px 20px 0px 0px;
   height: 110px;
   background-position: center;
 }
 .photo_hotel_port {
   background-image: url("./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
   background-size: cover; /* taille du backgroung couvre tout*/
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 20px 20px 0px 0px;
   height: 110px;
   background-position: center;
 }
 .photo_mouettes {
   background-image: url("./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
   background-size: cover; /* taille du backgroung couvre tout*/
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 20px 20px 0px 0px;
   height: 110px;
   background-position: center;
 }
 .photo_mer {
   background-image: url("./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
   background-size: cover; /* taille du backgroung couvre tout*/
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 20px 20px 0px 0px;
   height: 110px;
   background-position: center;
 }
@@ -619,14 +617,14 @@ strong {
   background-image: url("./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
   background-position: center;
   background-size: cover; /* taille du backgroung couvre tout*/
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 20px 20px 0px 0px;
   height: 110px;
 }
 .photo_amina {
   background-position: center;
   background-image: url("./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
   background-size: cover; /* taille du backgroung couvre tout*/
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 20px 20px 0px 0px;
   height: 110px;
 }
 
@@ -689,6 +687,9 @@ strong {
 
 @media all and (max-width: 600px) {
   /* vue mobile*/
+  
+
+
   #populaires h3 {
     margin-left: 8px;
   }
@@ -819,9 +820,13 @@ padding-left: 11px;
 }
 @media all and (max-width: 600px) {
   /* vue mobile*/
-  #activites h3 {
-    margin-left: 8px;
-  }
+  #activites h3{
+    height: 0;
+    font-size: 22px;
+   justify-content: center;
+    justify-items:center;
+    line-height: 0;
+   }
   #activites {
     display: flex;
     flex-direction: column;
@@ -910,7 +915,7 @@ padding-left: 11px;
   .photo_calanques,
   .photo_lagarde,
   .photo_longchamp {
-    height: 90px;
+    height: 150px;
   }
 }
 
