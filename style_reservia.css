@@ -399,7 +399,7 @@ footer nav{
     flex-direction: row;
     justify-content:left;
      border: #f2f2f2 solid 2px;
-    border-radius: 20px 20px 20px 20px;
+    
     margin-right: 5px;
     height: 46px;
     line-height: 46px;
@@ -746,8 +746,8 @@ padding-left: 11px;
   /* vue mobile*/
   
     .page_populaires {
-      grid-column-gap: 25px;
-    grid-template-columns: 130px 170px;
+      grid-column-gap: 20px;
+    grid-template-columns: 120px 170px;
     }
   }
 
@@ -760,12 +760,12 @@ padding-left: 11px;
     padding-right: 15px;
   }
 
-@media all and (max-width: 1024px) {
-  /* vue tablette*/
+/* @media all and (max-width: 1024px) {
+  /* vue tablette
   .page_populaires {
     grid-template-columns: 110px 200px;
   }
-}
+} */ 
 /* vue mobile*/
 /* mise en page photo populaires*/
 .photo_soleil_matin {
