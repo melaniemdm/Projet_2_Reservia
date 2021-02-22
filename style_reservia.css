@@ -890,29 +890,6 @@ padding-left: 11px;
   }
 }
 
-@media all and (max-width: 1024px) {     /* vue tablette*/
-  #activites {
-  display: flex;
-  flex-direction:column;
-  flex-wrap: wrap;}
-  
-  .grandport .card_activites,
-.grandparc .card_activites,
-.grand_pomegues .card_activites,
-.grand_lagarde .card_activites,
-.grand_frioul .card_activites,
-.grand_longchamp .card_activites  {
-  height: 200px;
-  width: 70%;
-  border: none;
-  margin: 0;
-  padding: 0;
-}
-.photo_vieux_port{
-  height: auto;
-}
-
-}
 
 @media all and (max-width: 600px) {
   /* vue mobile*/
@@ -986,5 +963,43 @@ padding-left: 11px;
       margin-top: -40px;
   }
 
- 
+  @media all and (max-width: 1024px) {     /* vue tablette*/
+    #activites{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+
+    }
+    .grandport {
+      grid-row: 2 ;
+      grid-column-start: 1;
+      
+    }
+    .grandparc {
+      grid-row: 2 ;
+      grid-column-start: 2;
+      
+    }
+    .grand_pomegues {
+      grid-row: 3;
+      grid-column-start: 1;
+      margin-bottom: 0;
+    }
+    .grand_lagarde {
+      grid-row: 3 ;
+      grid-column-start: 2;
+    }
+    .grand_longchamp {
+      grid-row: 4 ;
+      grid-column-start:1 ;
+    }
+    .grand_frioul {
+      grid-row: 4;
+      grid-column-start: 2;
+      margin-top: 0;
+    }
+    #activites h3 {
+      grid-column: 1 / span 2;
+    }
+
+  }
   
