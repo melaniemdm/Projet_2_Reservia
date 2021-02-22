@@ -793,7 +793,7 @@ padding-left: 11px;
   border-radius: 20px;
   display: grid;
   font-size: 16px;
-  grid-template-columns: 300px 300px 300px 300px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 55px 2fr 2fr 2fr 2fr 2fr 2fr;
   grid-column-gap: 45px;
   grid-row-gap: 30px;
@@ -804,27 +804,6 @@ padding-left: 11px;
   text-decoration: none;
   color: black;
 }
-@media all and (max-width: 600px) {
-  /* vue mobile*/
-  #activites h3{
-    height: 0;
-    font-size: 22px;
-   justify-content: center;
-    justify-items:center;
-    line-height: 0;
-   }
-  #activites {
-    display: flex;
-    flex-direction: column;
-    padding-left: 0;
-    padding-right: 0;
-    margin-right: 0;
-    margin-left: 0;
-    padding-bottom: 0;
-    order: 3;
-  }
-}
-
 #activites p {
   font-weight: bold;
   margin-left: 5px;
@@ -869,56 +848,6 @@ padding-left: 11px;
   border-radius: 20px 20px 0px 0px;
   background-position: center;
 }
-
-#activites h3 {
-  grid-column: 1 / span 4;
-}
-
-/* mise ne page de section*/
-.premiere {
-  display: grid;
-  grid-template-columns: 30fr 14fr;
-  grid-template-rows: 1fr;
-  grid-column-gap: 3%;
-  grid-row-gap: 15px;
-}
-@media all and (max-width: 1024px) {
-  /* vue tablette*/
-  .premiere {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-}
-
-
-@media all and (max-width: 600px) {
-  /* vue mobile*/
-  .premiere {
-    display: flex;
-    flex-direction: column;
-  }
-  .photo_vieux_port,
-  .photo_pomegues,
-  .photo_frioul,
-  .photo_calanques,
-  .photo_lagarde,
-  .photo_longchamp {
-    height: 150px;
-    }
-    .grandport .card_activites,
-    .grandparc .card_activites,
-    .grand_pomegues .card_activites,
-    .grand_lagarde .card_activites,
-    .grand_frioul .card_activites,
-    .grand_longchamp .card_activites  {
-            width: 100%;
-    }
-}
-
-.grey_icon {
-  color: #f2f2f2;
-}
-
 .grandport {
   grid-row: span 6;
   grid-column-start: 1;
@@ -963,43 +892,119 @@ padding-left: 11px;
       margin-top: -40px;
   }
 
-  @media all and (max-width: 1024px) {     /* vue tablette*/
-    #activites{
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 55px 1fr 1fr 1fr;
-    }
-    .grandport {
-      grid-row: 2 ;
-      grid-column-start: 1;
-      
-    }
-    .grandparc {
-      grid-row: 2 ;
-      grid-column-start: 2;
-      
-    }
-    .grand_pomegues {
-      grid-row: 3;
-      grid-column-start: 1;
-      margin-bottom: 0;
-    }
-    .grand_lagarde {
-      grid-row: 3 ;
-      grid-column-start: 2;
-    }
-    .grand_longchamp {
-      grid-row: 4 ;
-      grid-column-start:1 ;
-    }
-    .grand_frioul {
-      grid-row: 4;
-      grid-column-start: 2;
-      margin-top: 0;
-    }
-    #activites h3 {
-      grid-column: 1 / span 2;
-    }
+  
 
+#activites h3 {
+  grid-column: 1 / span 4;
+}
+
+
+@media all and (max-width: 1024px) {     /* vue tablette*/
+  #activites{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 55px 1fr 1fr 1fr;
   }
+  .grandport {
+    grid-row: 2 ;
+    grid-column-start: 1;
+    
+  }
+  .grandparc {
+    grid-row: 2 ;
+    grid-column-start: 2;
+    
+  }
+  .grand_pomegues {
+    grid-row: 3;
+    grid-column-start: 1;
+    margin-bottom: 0;
+  }
+  .grand_lagarde {
+    grid-row: 3 ;
+    grid-column-start: 2;
+  }
+  .grand_longchamp {
+    grid-row: 4 ;
+    grid-column-start:1 ;
+  }
+  .grand_frioul {
+    grid-row: 4;
+    grid-column-start: 2;
+    margin-top: 0;
+  }
+  #activites h3 {
+    grid-column: 1 / span 2;
+  }
+
+}
+@media all and (max-width: 600px) {
+  /* vue mobile*/
+  #activites h3{
+    height: 0;
+    font-size: 22px;
+   justify-content: center;
+    justify-items:center;
+    line-height: 0;
+   }
+  #activites {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+    margin-left: 0;
+    padding-bottom: 0;
+    order: 3;
+  }
+  .photo_vieux_port,
+  .photo_pomegues,
+  .photo_frioul,
+  .photo_calanques,
+  .photo_lagarde,
+  .photo_longchamp {
+    height: 150px;
+    }
+    .grandport .card_activites,
+    .grandparc .card_activites,
+    .grand_pomegues .card_activites,
+    .grand_lagarde .card_activites,
+    .grand_frioul .card_activites,
+    .grand_longchamp .card_activites  {
+            width: 100%;
+    }
+}
+
+
+/* mise ne page de section*/
+.premiere {
+  display: grid;
+  grid-template-columns: 30fr 14fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 3%;
+  grid-row-gap: 15px;
+}
+@media all and (max-width: 1024px) {
+  /* vue tablette*/
+  .premiere {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+
+@media all and (max-width: 600px) {
+  /* vue mobile*/
+  .premiere {
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
+
+.grey_icon {
+  color: #f2f2f2;
+}
+
+
   
