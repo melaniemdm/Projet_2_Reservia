@@ -409,6 +409,12 @@ footer nav{
     }
 
 }
+@media all and (max-width: 1024px) {     /* vue tablette*/
+.filtres_responsive{  
+  justify-content: left;
+
+row-gap: 10px;
+}}
 /* Couleur de l'icon */
 .blue_icon {
   color: #0065fc;
