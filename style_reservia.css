@@ -671,9 +671,10 @@ strong {
   #populaires {
     display: flex;
     flex-direction: column;
-    padding-left: 0;
-    padding-right: 0;
-    margin-right: 0;
+    padding-left: 10px;
+    margin-left: -10px;
+    padding-right: 10px;
+    margin-right: -10px;
     padding-bottom: 0;
     border-radius: 0;
   }
@@ -719,7 +720,12 @@ padding-left: 11px;
 }
 @media all and (max-width: 600px) {
   /* vue mobile*/
-
+  
+    .page_populaires {
+      grid-column-gap: 25px;
+    grid-template-columns: 130px 170px;
+    }
+  }
   #populaires p {
     margin-left: 5px;
   }
@@ -732,7 +738,7 @@ padding-left: 11px;
 @media all and (max-width: 1024px) {
   /* vue tablette*/
   .page_populaires {
-    grid-template-columns: 70px 10em;
+    grid-template-columns: 110px 200px;
   }
 }
 /* vue mobile*/
