@@ -22,8 +22,7 @@ body {
   color: black;
 }
 html{
-  background-color: rgb(210, 247, 210);
-  margin: 0; /* reset (par defaut des navigateurs)*/
+    margin: 0; /* reset (par defaut des navigateurs)*/
   padding: 0; /* reset (par defaut des navigateurs)*/
 }
 
